@@ -1,0 +1,12 @@
+{    
+	"manufacturer": "Majin",
+    "keyboard_name": "Drift",
+    "maintainer": "Timception",
+    "url": "https://github.com/majin",
+    "usb": {
+        "device_version": "1.9.5",
+        "pid": "0x6D6A",
+        "vid": "0x5965"
+    }
+    
+}
