@@ -17,7 +17,7 @@
 
 #include "drift.h"
 
-
+/*
 #ifdef SWAP_HANDS_ENABLE
 
 __attribute__ ((weak))
@@ -26,7 +26,7 @@ const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRIX_COLS] =
     // identity using it.
 
     // This is the identity layout.
-/*
+
 { \
  { {0, 0}, {1, 0}, {2, 0}, {3, 0}, {4, 0}, {5, 0}, {6, 0}, {7, 0} }, \
  { {0, 1}, {1, 1}, {2, 1}, {3, 1}, {4, 1}, {5, 1}, {6, 1}, {7, 1} }, \
@@ -43,6 +43,8 @@ const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRIX_COLS] =
 */
 
     // This is the mirror, q <-> p, w <-> o, etc...
+/*	
+	
 { \
  { {7, 5}, {6, 5}, {5, 5}, {4, 5}, {3, 5}, {2, 5}, {1, 5}, {0, 5} }, \
  { {7, 6}, {6, 6}, {5, 6}, {4, 6}, {3, 6}, {2, 6}, {1, 6}, {0, 6} }, \
@@ -57,8 +59,13 @@ const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRIX_COLS] =
  { {7, 4}, {6, 4}, {5, 4}, {4, 4}                                 }, \
 };
 
+#    ifdef ENCODER_MAP_ENABLE
+const uint8_t PROGMEM encoder_hand_swap_config[NUM_ENCODERS] = {1, 0};
+#    endif
+
 #endif //SWAP_HANDS_ENABLE
 
+*/
 
 
 

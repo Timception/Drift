@@ -22,7 +22,7 @@ LTO_ENABLE = no
 
 # Split Keyboard Settings
 SPLIT_KEYBOARD = yes
-SWAP_HANDS_ENABLE = yes
+#SWAP_HANDS_ENABLE = yes
 
 #SPACE SAVING
 AUDIO_ENABLE			= no
