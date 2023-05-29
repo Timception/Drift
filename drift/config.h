@@ -1,5 +1,4 @@
-/*
-Copyright 2023 MAJIN <@timception>
+/* Copyright 2023 MAJIN <@timception>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -12,8 +11,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
+along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 
 #pragma once
 
@@ -38,14 +36,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS { GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9 }		// 8 Pins
 #define MATRIX_ROW_PINS { GP10, GP11, GP14, GP15, GP26 }				// 5 Pins
 
-/* Encoder Pins */
+/* -==== Encoder Pins ====- */
 #define ENCODERS_PAD_A { GP28 }
 #define ENCODERS_PAD_B { GP27 }
 #define ENCODERS_PAD_A_RIGHT { GP27 }
 #define ENCODERS_PAD_B_RIGHT { GP28 }
+
 //#define ENCODER_DIRECTION_FLIP
-#define ENCODER_RESOLUTION 4
-//#define ENCODER_DEFAULT_POS 0x3
+//#define ENCODER_RESOLUTION 4
+#define ENCODER_RESOLUTION 2
+#define ENCODER_DEFAULT_POS 0x3
 
 /* Split Definitions */
 #define SPLIT_LAYER_STATE_ENABLE
@@ -63,8 +63,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define OLED_DISPLAY_128X32
 #define I2C_DRIVER I2CD1
 #define I2C1_SDA_PIN GP12
-#define I2C1_SCL_PIN GP13	
-
+#define I2C1_SCL_PIN GP13
 
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION

@@ -15,7 +15,7 @@ WPM_ENABLE	= yes
 OPT_DEFS += -DHAL_USE_I2C=TRUE
 
 # Allow Warnings
-ALLOW_WARNINGS = yes
+#ALLOW_WARNINGS = yes
 
 # LTO must be disabled for RP2040 builds
 LTO_ENABLE = no

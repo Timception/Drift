@@ -17,7 +17,7 @@
 
 #include "drift.h"
 
-/*
+/* this section still needs work
 #ifdef SWAP_HANDS_ENABLE
 
 __attribute__ ((weak))
