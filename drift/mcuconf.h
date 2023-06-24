@@ -22,5 +22,5 @@
 #undef RP_I2C_USE_I2C0
 #define RP_I2C_USE_I2C0 TRUE
 
-#undef RP_I2C_USE_I2C1
-#define RP_I2C_USE_I2C1 TRUE
+#undef RP_I2C_USE_I2C1 //some keyboards do not have this set
+#define RP_I2C_USE_I2C1 TRUE //some keyboards do not have this set

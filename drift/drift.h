@@ -36,7 +36,7 @@
 // |SW24|SW25|SW26|SW27|SW28|SW29|SW30|SW31|SW35|  |SW35|SW31|SW30|SW29|SW28|SW27|SW26|SW25|SW24|
 //                          |SW32|SW33|SW34|            |SW34|SW33|SW32|
 
-#define LAYOUT_drift( \
+#define LAYOUT_8x5( \
     L00, L01, L02, L03, L04, L05, L06, L07,           R00, R01, R02, R03, R04, R05, R06, R07,     \
     L10, L11, L12, L13, L14, L15, L16, L17,           R10, R11, R12, R13, R14, R15, R16, R17,     \
          L21, L22, L23, L24, L25, L26, L27,           R20, R21, R22, R23, R24, R25, R26,          \
@@ -57,4 +57,4 @@
     }
 
 
-#define LAYOUT LAYOUT_drift
+#define LAYOUT LAYOUT_8x5

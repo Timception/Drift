@@ -17,6 +17,12 @@
 
 #include "drift.h"
 
+oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
+	return OLED_ROTATION_90;
+	//return OLED_ROTATION_180;
+}
+
+
 /* this section still needs work
 #ifdef SWAP_HANDS_ENABLE
 

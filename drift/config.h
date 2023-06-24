@@ -15,7 +15,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 
 #pragma once
 
-#include "config_common.h"
+//#include "config_common.h"
 
 /* USB Device descriptor parameter */
 /*
@@ -36,15 +36,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 #define MATRIX_COL_PINS { GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9 }		// 8 Pins
 #define MATRIX_ROW_PINS { GP10, GP11, GP14, GP15, GP26 }				// 5 Pins
 
+/* Use 1000hz polling */
+#define USB_POLLING_INTERVAL_MS 1
+
 /* -==== Encoder Pins ====- */
 #define ENCODERS_PAD_A { GP28 }
 #define ENCODERS_PAD_B { GP27 }
 #define ENCODERS_PAD_A_RIGHT { GP27 }
 #define ENCODERS_PAD_B_RIGHT { GP28 }
 
-//#define ENCODER_DIRECTION_FLIP
+#define ENCODER_DIRECTION_FLIP
 //#define ENCODER_RESOLUTION 4
-#define ENCODER_RESOLUTION 2
+//#define ENCODER_RESOLUTION 2
 #define ENCODER_DEFAULT_POS 0x3
 
 /* Split Definitions */
@@ -56,11 +59,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 #define USE_SERIAL
 #define SOFT_SERIAL_PIN GP0
 #define SERIAL_USE_MULTI_TRANSACTION
-/* Communication between Sides */
+/* Communication between Sides: The PIO driver */
+// The PIO subsystem is a Raspberry Pi RP2040 specific implementation,
+// using the integrated PIO peripheral and is therefore only available on this MCU.
+// Because of the flexible nature of the PIO peripherals, any GPIO pin can be used as a TX or RX pin.
 #define SERIAL_PIO_USE_PIO1
+// Half-duplex and Full-duplex operation is fully supported.
+// The Half-duplex operation mode uses the built-in pull-ups and GPIO manipulation on the RP2040
+// to drive the line high by default. An external pull-up is therefore not necessary.
+
+/* Fix for the RP2040 Wake up bug - you can't enter BIOS with these enabled tho */
+//#define SPLIT_USB_TIMEOUT 10000
+//#define SPLIT_USB_TIMEOUT_POLL 10
+
 
 /* OLED Definitions */
-#define OLED_DISPLAY_128X32
+#define OLED_DISPLAY_128X64
+#define OLED_FONT_H  "./lib/glcdfont.c"
 #define I2C_DRIVER I2CD1
 #define I2C1_SDA_PIN GP12
 #define I2C1_SCL_PIN GP13
