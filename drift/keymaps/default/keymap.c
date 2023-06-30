@@ -77,16 +77,16 @@ bool oled_task_user(void) {
 
     switch (get_highest_layer(layer_state)) {
         case 0:
-            oled_write_P(PSTR("One\n"), false);
+            oled_write_P(PSTR("1\n"), false);
             break;
         case 1:
-            oled_write_P(PSTR("Two\n"), false);
+            oled_write_P(PSTR("2\n"), false);
             break;
         case 2:
-            oled_write_P(PSTR("Three\n"), false);
+            oled_write_P(PSTR("3\n"), false);
             break;
 		case 3:
-            oled_write_P(PSTR("Four\n"), false);
+            oled_write_P(PSTR("4\n"), false);
             break;
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
@@ -104,7 +104,7 @@ bool oled_task_user(void) {
 #endif
 
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD), ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
+    [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU), ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
     [1] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
     [2] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
     [3] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) }

@@ -1,7 +1,8 @@
 {
-    "keyboard_name": "Drift", 
-    "url": "https://github.com/majin", 
-    "manufacturer": "Timception",
+    "keyboard_name": "Drift",
+	"maintainer": "Timception",
+    "url": "https://github.com/Timception/Drift",
+    "manufacturer": "Majin",
     "usb": {
         "vid": "0x5965",
         "pid": "0x6D6A",
