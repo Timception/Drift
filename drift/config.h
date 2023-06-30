@@ -41,8 +41,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 
 /* External VBUS via 5V through diode to GP29 */
 // for rp2040 | When USB_VBUS_PIN is not defined, SPLIT_USB_DETECT is used.
-#undef SPLIT_USB_DETECT
-#define USB_VBUS_PIN GP29
+//#undef SPLIT_USB_DETECT
+//#define USB_VBUS_PIN GP29
 
 /* -==== Encoder Pins ====- */
 #define ENCODERS_PAD_A { GP28 }
@@ -73,9 +73,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 // The Half-duplex operation mode uses the built-in pull-ups and GPIO manipulation on the RP2040
 // to drive the line high by default. An external pull-up is therefore not necessary.
 
-/* Fix for the RP2040 Wake up bug - you can't enter BIOS with these enabled tho */
-//#define SPLIT_USB_TIMEOUT 10000
-//#define SPLIT_USB_TIMEOUT_POLL 10
+/* Fix for the RP2040-ZERO Wake up bug - you can't enter BIOS with these enabled tho */
+// use this instead of VBUS hack above if lazy to use diodes and switches on each side
+#define SPLIT_USB_TIMEOUT 10000
+#define SPLIT_USB_TIMEOUT_POLL 10
 
 
 /* OLED Definitions */
@@ -89,7 +90,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 //#define NO_ACTION_FUNCTION
 
 #define DEBOUNCE 5
-
 
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
