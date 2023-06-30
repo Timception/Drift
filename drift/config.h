@@ -39,6 +39,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 /* Use 1000hz polling */
 #define USB_POLLING_INTERVAL_MS 1
 
+/* External VBUS via 5V through diode to GP29 */
+// for rp2040 | When USB_VBUS_PIN is not defined, SPLIT_USB_DETECT is used.
+#undef SPLIT_USB_DETECT
+#define USB_VBUS_PIN GP29
+
 /* -==== Encoder Pins ====- */
 #define ENCODERS_PAD_A { GP28 }
 #define ENCODERS_PAD_B { GP27 }
