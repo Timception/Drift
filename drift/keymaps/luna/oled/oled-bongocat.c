@@ -1,7 +1,7 @@
 // Copyright 2021 @filterpaper
 // SPDX-License-Identifier: GPL-2.0+
 
-/* Graphical bongocat animation, driven by key press timer or WPM.
+/* Graphical bongocat animation
    It has left and right aligned cats optimized for both OLEDs.
    This code uses run-length encoded frames that saves space by
    encoding frames into repeated or unique byte count.
@@ -19,17 +19,7 @@
    2 Add the following lines into rules.mk:
         OLED_ENABLE = yes
         SRC += oled-bongocat.c
-   3 To animate with WPM, add 'WPM_ENABLE = yes' into rules.mk.
-     Otherwise add the following 'process_record_user()' code block into
-     keymap.c to trigger animation tap timer with key presses:
-        bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-            if (record->event.pressed) {
-                extern uint32_t oled_tap_timer;
-                oled_tap_timer = timer_read32();
-            }
-            return true;
-        }
-   4 The 'oled_task_user()' calls 'render_mod_status()' from "oled-icons.c"
+   3 The 'oled_task_user()' calls 'render_mod_status()' from "oled-icons.c"
      for secondary OLED. Review that file for usage guide or replace
 	 'render_mod_status()' with your own function.
  */
@@ -41,12 +31,6 @@
 #define FRAME_DURATION 200 // milliseconds
 #define TAP_INTERVAL  FRAME_DURATION*2
 #define PAWS_INTERVAL FRAME_DURATION*8
-
-
-
-
-// Timer duration between key presses
-uint32_t oled_tap_timer = 0;
 
 // Run-length encoded animation frames
 // Right frames
@@ -225,8 +209,7 @@ static unsigned char const *left_tap[TAP_FRAMES] = {
 // If count < 0x80, next byte is repeated by count
 static void decode_frame(unsigned char const *frame) {
 	uint16_t cursor = 0;
-	uint8_t size    = pgm_read_byte(frame);
-	uint8_t i       = 1;
+	uint8_t i = 1, size = pgm_read_byte(frame);
 
 	oled_set_cursor(0,0);
 	while (i < size) {
@@ -249,14 +232,13 @@ static void decode_frame(unsigned char const *frame) {
 }
 
 
-void animate_cat(void) {
-	static uint8_t tap_index = 0;
-	static uint8_t idle_index = 0;
+static void animate_cat(uint32_t interval) {
+	static uint8_t tap_index = 0, idle_index = 0;
 
-	if (timer_elapsed32(oled_tap_timer) < TAP_INTERVAL) {
+	if (interval < TAP_INTERVAL) {
 		tap_index = (tap_index + 1) & 1;
 		decode_frame(is_keyboard_left() ? left_tap[tap_index] : tap[tap_index]);
-	} else if (timer_elapsed32(oled_tap_timer) < PAWS_INTERVAL) {
+	} else if (interval < PAWS_INTERVAL) {
 		decode_frame(is_keyboard_left() ? left_paws : paws);
 	} else {
 		idle_index = idle_index < IDLE_FRAMES - 1 ? idle_index + 1 : 0;
@@ -266,35 +248,30 @@ void animate_cat(void) {
 
 
 static void render_bongocat(void) {
-	// Timer duration between animation frames
-	static uint16_t anim_timer = 0;
+	static uint16_t frame_timer = 0;
+	uint32_t input_timer = last_matrix_activity_time();
 
-#ifdef WPM_ENABLE
-	static uint8_t prev_wpm = 0;
-	// Update oled_tap_timer with sustained WPM
-	if (get_current_wpm() > prev_wpm) {
-		oled_tap_timer = timer_read32();
-	}
-	prev_wpm = get_current_wpm();
-#endif
-
-	if (timer_elapsed32(oled_tap_timer) > OLED_TIMEOUT) {
+	if (timer_elapsed32(input_timer) > OLED_TIMEOUT) {
 		oled_off();
-	} else if (timer_elapsed(anim_timer) > FRAME_DURATION) {
-		anim_timer = timer_read();
-		animate_cat();
-	}	
-	
+	} else if (timer_elapsed(frame_timer) > FRAME_DURATION) {
+		frame_timer = timer_read();
+		animate_cat(timer_elapsed32(input_timer));
+	}
 }
 
 
 // Init and rendering calls
 oled_rotation_t oled_init_user(oled_rotation_t const rotation) {
-	return rotation;
+	if (is_keyboard_master()) {
+		return is_keyboard_left() ? rotation : OLED_ROTATION_180;
+	} else {
+		return OLED_ROTATION_270;
+	}
 }
 
 
 bool oled_task_user(void) {
-	render_bongocat();
+	extern void render_mod_status(void);
+	is_keyboard_master() ? render_bongocat() : render_mod_status();
 	return false;
 }
