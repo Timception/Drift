@@ -5,3 +5,5 @@
 
 //#define MASTER_LEFT
 #define MASTER_RIGHT
+
+#define OLED_FONT_H  "lib/glcdfont.c"

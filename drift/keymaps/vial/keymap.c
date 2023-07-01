@@ -69,25 +69,35 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  )
 };
 
-
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+    [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU), ENCODER_CCW_CW(KC_WH_D, KC_WH_U) },
+    [1] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
+    [2] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
+    [3] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) }
+};
 
 #ifdef OLED_ENABLE
+
+oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
+	return OLED_ROTATION_270;
+	//return OLED_ROTATION_180;
+}
+
 bool oled_task_user(void) {
     // Host Keyboard Layer Status
-    oled_write_P(PSTR("Layer: "), false);
 
     switch (get_highest_layer(layer_state)) {
         case _QWERTY:
-            oled_write_P(PSTR("1\n"), false);
+            oled_write_P(PSTR("Layer\n\n ONE\nQWERTY"), false);
             break;
         case _LOWER:
-            oled_write_P(PSTR("2\n"), false);
+            oled_write_P(PSTR("Layer\n\n TWO\nLOWER"), false);
             break;
         case _RAISE:
-            oled_write_P(PSTR("3\n"), false);
+            oled_write_P(PSTR("Layer\nThree\nRAISE"), false);
             break;
 		case _ADJUST:
-            oled_write_P(PSTR("4\n"), false);
+            oled_write_P(PSTR("Layer\n\n FOUR\nADJUST"), false);
             break;
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
@@ -103,10 +113,3 @@ bool oled_task_user(void) {
     return false;
 }
 #endif
-
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU), ENCODER_CCW_CW(KC_WH_D, KC_WH_U) },
-    [1] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
-    [2] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
-    [3] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) }
-};
