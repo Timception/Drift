@@ -18,6 +18,7 @@ enum custom_keycodes {
     ADJUST
 };
 
+#define QWERTY MO(_QWERTY)
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
 #define ADJUST MO(_ADJUST)
@@ -76,16 +77,16 @@ bool oled_task_user(void) {
     oled_write_P(PSTR("Layer: "), false);
 
     switch (get_highest_layer(layer_state)) {
-        case 0:
+        case _QWERTY:
             oled_write_P(PSTR("1\n"), false);
             break;
-        case 1:
+        case _LOWER:
             oled_write_P(PSTR("2\n"), false);
             break;
-        case 2:
+        case _RAISE:
             oled_write_P(PSTR("3\n"), false);
             break;
-		case 3:
+		case _ADJUST:
             oled_write_P(PSTR("4\n"), false);
             break;
         default:
