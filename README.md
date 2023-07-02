@@ -8,4 +8,4 @@ Amazing Split Keyboard using Vial firmware with 68 keys
 Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping me with my keyboard layout code.
 
 Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for helping me figure out a workaround for the VBUS problem due to a design flaw in the RP2040-Zero.
-Please Check out his [Products](https://lectronz.com/stores/tweetys-wild-thinking)
+Please Check out his [Products](https://lectronz.com/stores/tweetys-wild-thinking).
