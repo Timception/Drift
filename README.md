@@ -9,3 +9,7 @@ Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboa
 
 Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for helping me figure out a workaround for the VBUS problem due to a design flaw in the RP2040-Zero.
 Please Check out his [Products](https://lectronz.com/stores/tweetys-wild-thinking)
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
