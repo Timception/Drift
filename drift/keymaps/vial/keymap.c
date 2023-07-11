@@ -5,20 +5,20 @@
 // d e f i n e   l a y e r s
 
 enum Layers {
-    _QWERTY,
+    _BASE,
     _LOWER,
     _RAISE,
     _ADJUST
 };
 
 enum custom_keycodes {
-    QWERTY,
+    BASE,
     LOWER,
     RAISE,
     ADJUST
 };
 
-#define QWERTY MO(_QWERTY)
+#define BASE MO(_QWERTY)
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
 #define ADJUST MO(_ADJUST)
@@ -29,7 +29,7 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
  
-   [_QWERTY] = LAYOUT(
+   [_BASE] = LAYOUT(
  
     KC_DEL,  KC_ESC,  KC_GRV,  KC_1, KC_2, KC_3,    KC_4,   KC_5,                    KC_6,  KC_7,   KC_8,    KC_9,   KC_0,    KC_MINS, KC_EQL,  KC_BSPC,
     C(KC_C), ADJUST,  KC_TAB,  KC_Q, KC_W, KC_E,    KC_R,   KC_T,                    KC_Y,  KC_U,   KC_I,    KC_O,   KC_P,    KC_LBRC, KC_RBRC, KC_BSLS,
@@ -79,25 +79,25 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
 #ifdef OLED_ENABLE
 
 oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
-	return OLED_ROTATION_90;
-	//return OLED_ROTATION_180;
+	//return OLED_ROTATION_90; // Long Vertical Screen - old version
+	return OLED_ROTATION_180; // Horizontal Screen
 }
 
 bool oled_task_user(void) {
     // Host Keyboard Layer Status
 
     switch (get_highest_layer(layer_state)) {
-        case _QWERTY:
-            oled_write_P(PSTR("LAYER\n \n\nONE\n \n\nQWERTY"), false);
+        case _BASE:
+            oled_write_P(PSTR("   LAYER\n\n    ONE"), false);
             break;
         case _LOWER:
-            oled_write_P(PSTR("LAYER\n \n\nTWO\n \n\nLOWER"), false);
+            oled_write_P(PSTR("   LAYER\n\n    TWO"), false);
             break;
         case _RAISE:
-            oled_write_P(PSTR("LAYER\n \n\nTHREE\n \n\nRAISE"), false);
+            oled_write_P(PSTR("   LAYER\n\n   THREE"), false);
             break;
 		case _ADJUST:
-            oled_write_P(PSTR("LAYER\n \n\nFOUR\n \n\nADJUST"), false);
+            oled_write_P(PSTR("   LAYER\n\n    FOUR"), false);
             break;
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
@@ -106,9 +106,9 @@ bool oled_task_user(void) {
 
     // Host Keyboard LED Status
     led_t led_state = host_keyboard_led_state();
-    oled_write_P(led_state.num_lock ? PSTR("NUM ") : PSTR("    "), false);
-    oled_write_P(led_state.caps_lock ? PSTR("CAP ") : PSTR("    "), false);
-    oled_write_P(led_state.scroll_lock ? PSTR("SCR ") : PSTR("    "), false);
+    oled_write_P(led_state.num_lock ? PSTR("\n\n    NUM ") : PSTR("    "), false);
+    oled_write_P(led_state.caps_lock ? PSTR("\n\n    CAP ") : PSTR("    "), false);
+    oled_write_P(led_state.scroll_lock ? PSTR("\n\n    SCR ") : PSTR("    "), false);
     
     return false;
 }
