@@ -5,20 +5,20 @@
 // d e f i n e   l a y e r s
 
 enum Layers {
-    _QWERTY,
+    _BASE,
     _LOWER,
     _RAISE,
     _ADJUST
 };
 
 enum custom_keycodes {
-    QWERTY,
+    BASE,
     LOWER,
     RAISE,
     ADJUST
 };
 
-#define QWERTY MO(_QWERTY)
+#define BASE MO(_QWERTY)
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
 #define ADJUST MO(_ADJUST)
@@ -29,7 +29,7 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
  
-   [_QWERTY] = LAYOUT(
+   [_BASE] = LAYOUT(
  
     KC_DEL,  KC_ESC,  KC_GRV,  KC_1, KC_2, KC_3,    KC_4,   KC_5,                    KC_6,  KC_7,   KC_8,    KC_9,   KC_0,    KC_MINS, KC_EQL,  KC_BSPC,
     C(KC_C), ADJUST,  KC_TAB,  KC_Q, KC_W, KC_E,    KC_R,   KC_T,                    KC_Y,  KC_U,   KC_I,    KC_O,   KC_P,    KC_LBRC, KC_RBRC, KC_BSLS,

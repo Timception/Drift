@@ -243,7 +243,7 @@ static void render_luna_status(void) {
 
 // Init and rendering calls
 oled_rotation_t oled_init_user(oled_rotation_t const rotation) {
-	return OLED_ROTATION_90;
+	return OLED_ROTATION_180;
 }
 
 
