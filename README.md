@@ -1,5 +1,5 @@
 # Drift Keyboard
-Drift Keyboard by Timception
+Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin_keyboards/)
 
 A Hearty Split Keyboard using Vial firmware with 68 keys
 =========================================================
