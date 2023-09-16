@@ -1,7 +1,8 @@
 # Drift Keyboard
 Drift Keyboard by Timception
 
-A Hearty Split Keyboard using Vial firmware with 68 keys that can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย).
+A Hearty Split Keyboard using Vial firmware with 68 keys
+*Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
 
 ![DRIFT_Keyboard_EV01psd](https://github.com/Timception/Drift/assets/84595044/a8ad2528-249f-4310-a324-4c62dbdfb540)
 
