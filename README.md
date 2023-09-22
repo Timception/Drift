@@ -20,7 +20,7 @@ A Hearty Split Keyboard using Vial firmware with 68 keys
 ![IMG_65](https://github.com/Timception/Drift/assets/84595044/3df4b51b-a8d0-457b-944e-bb4edaed057f)
 
 
-Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping me with my keyboard layout code.
+Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping with the keyboard layout code.
 
-Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for helping me figure out a workaround for the VBUS problem due to a design flaw in the RP2040-Zero.
+Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for helping figure out a workaround for the VBUS problem due to a design flaw in the RP2040-Zero.
 Please Check out his [Products](https://lectronz.com/stores/tweetys-wild-thinking).
