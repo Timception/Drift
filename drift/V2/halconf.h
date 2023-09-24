@@ -24,4 +24,6 @@
 #define HAL_USE_PWM TRUE
 #endif
 
+//#define HAL_USE_PAL TRUE
+
 #include_next "halconf.h"

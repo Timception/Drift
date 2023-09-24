@@ -81,17 +81,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 #define USB_POLLING_INTERVAL_MS 1
 
 /* OLED Definitions */
-#define OLED_DISPLAY_128X64
 #define I2C_DRIVER I2CD0
 #define I2C1_SDA_PIN GP12
 #define I2C1_SCL_PIN GP13
+#define OLED_DISPLAY_128X64
 
 /* Audio Definitions */
 #ifdef AUDIO_ENABLE
 #	define AUDIO_PIN GP1
 #	define AUDIO_PWM_DRIVER PWMD0
 #	define AUDIO_PWM_CHANNEL RP2040_PWM_CHANNEL_B
-#	define AUDIO_INIT_DELAY
 #endif
 
 //#define NO_ACTION_MACRO

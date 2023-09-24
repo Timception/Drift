@@ -27,3 +27,7 @@
 #undef RP_PWM_USE_PWM0
 #define RP_PWM_USE_PWM0 TRUE
 #endif
+
+
+//#undef RP_PWM_USE_TIM1
+//#define RP_PWM_USE_TIM1 TRUE

@@ -6,13 +6,13 @@ BOOTLOADER = rp2040
 
 # PIO Serial/WS2812 drivers used on RP2040
 SERIAL_DRIVER = vendor
-WS2812_DRIVER = vendor
+#WS2812_DRIVER = vendor
 
 # OLED Settings
 OLED_ENABLE = yes
 WPM_ENABLE	= yes
 #not sure what this does try removing it.
-OPT_DEFS += -DHAL_USE_I2C=TRUE
+#OPT_DEFS += -DHAL_USE_I2C=TRUE
 
 # Allow Warnings
 #ALLOW_WARNINGS = yes
@@ -26,8 +26,8 @@ SPLIT_KEYBOARD = yes
 
 #SPACE SAVING
 
-AUDIO_ENABLE			= yes
 AUDIO_DRIVER			= pwm_hardware
+AUDIO_ENABLE			= yes
 MUSIC_ENABLE			= yes
 
 CONSOLE_ENABLE			= no

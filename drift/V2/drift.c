@@ -15,7 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "drift.h"
+//#include "drift.h"
+#include "quantum.h"
 
 
 /* this section still needs work

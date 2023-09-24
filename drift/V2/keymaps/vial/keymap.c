@@ -1,6 +1,6 @@
 #include QMK_KEYBOARD_H
 #include <stdio.h>
-#include "drift.h"
+//#include "drift.h"
 
 #ifdef AUDIO_ENABLE
   #include "audio.h"
@@ -174,6 +174,7 @@ float adjust0[][2] = SONG(TERMINAL_SOUND);
 //float something0[][2] = SONG(IMPERIAL_MARCH);
 
 // Tunes on Layer 4
+// Requires and updated song_list.h file located in ..\quantum\audio
 float song1[][2] = SONG(CLOSE_ENCOUNTERS_5_NOTE);
 float song2[][2] = SONG(DOE_A_DEER);
 float song3[][2] = SONG(IN_LIKE_FLINT);
@@ -220,6 +221,7 @@ float song42[][2] = SONG(NOCTURNE_OP_9_NO_1);
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
+		/*
 		case KC_LSFT:
             if (record->event.pressed) {
                 // when keycode QMKSONG3 is pressed
@@ -238,6 +240,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 				PLAY_SONG(caps0);
             }
             break;
+		*/
 		case KC_CAPS:
             if (record->event.pressed) {
                 // when keycode QMKSONG3 is pressed
@@ -265,6 +268,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 				PLAY_SONG(lower0);
             }
             break;
+		/*
         case ADJUST:
             if (record->event.pressed) {
                 // when keycode QMKSONG3 is pressed
@@ -274,7 +278,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 				PLAY_SONG(lower0);
             }
             break;
-			
+		*/
         case QMKSONG1:
             if (record->event.pressed) {
                 // when keycode QMKSONG1 is pressed
