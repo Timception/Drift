@@ -1,7 +1,7 @@
 # Drift Keyboard
 Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin_keyboards/)
 
-A Hearty Split Keyboard using Vial firmware with 68 keys
+A Hearty 68-Key Split Keyboard using Vial firmware
 =========================================================
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
 
