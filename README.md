@@ -9,18 +9,15 @@ A Hearty 68-Key Split Keyboard using Vial firmware
 
 ![DRIFT_Keyboard_Kaiju](https://github.com/Timception/Drift/assets/84595044/a0f79aaa-8451-4e9c-bb01-142a24413e9a)
 
-I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for OLED Animation Lessons! ----====![ZANNIKB_LOGO](https://github.com/Timception/Drift/assets/84595044/16948fb5-0360-4244-a7d2-38ecee8af839)====----
+----====![ZANNIKB_LOGO](https://github.com/Timception/Drift/assets/84595044/16948fb5-0360-4244-a7d2-38ecee8af839)====----
 
+I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for OLED Animation Lessons! 
 
-![E53C8F95-75CF-497D-8A38-DF386D7BC5F8](https://github.com/Timception/Drift/assets/84595044/9ee9f1c4-968e-4e2d-a7df-c07d46234df8)
+![IMG_3612](https://github.com/Timception/Drift/assets/84595044/4112aebc-5a67-485c-86f4-9d734125b426)
 
-![IMG_2328](https://github.com/Timception/Drift/assets/84595044/5031458b-64ed-4999-8ead-e81d2a81be79)
+![IMG_3611](https://github.com/Timception/Drift/assets/84595044/969f0606-bb76-474a-9234-e7497b6e417b)
 
-![IMG_99](https://github.com/Timception/Drift/assets/84595044/8564e7ff-cd27-4198-a931-2e270779589b)
-
-![IMG_59](https://github.com/Timception/Drift/assets/84595044/f31c96c9-44be-4a80-81c2-696c504b9038)
-
-![IMG_65](https://github.com/Timception/Drift/assets/84595044/3df4b51b-a8d0-457b-944e-bb4edaed057f)
+![IMG_3610](https://github.com/Timception/Drift/assets/84595044/5441bd18-355f-417b-b26b-25d9020660c8)
 
 
 Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping with the keyboard layout code.
