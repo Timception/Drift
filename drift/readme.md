@@ -1,12 +1,10 @@
-# DRIFT split keyboard
+# DRIFT Keyboard by Timception
 
 DRIFT is a 68 key column-staggered split keyboard made by @timception. It uses the small but powerful RP2040 Zero.
 
-V1 is the original Prototype (vanilla drift keyboard).
+Tested to be working with Vial 0.7.1
 
-V2 is the second version with a Buzzer, Music Mode and added support for standard rotary encoders.
-
-V2 is related to files with "Audio" in them.
+VIAL Firmware GUI can be found here:  [get.vial.today](https://get.vial.today/)
 
 You can use this command to compile the firmware
 `qmk compile -kb majin/drift -km vial`
