@@ -1,6 +1,6 @@
 # DRIFT Keyboard by Timception
 
-DRIFT is a 68 key Staggered Ortholinear Split Keyboard made by [Timception](https://github.com/timception).
+DRIFT Keyboard is a 68-key Staggered Ortholinear Split Keyboard made by [Timception](https://github.com/timception).
 
 It uses the RP2040-Zero, has two oleds and roller encoders.
 
