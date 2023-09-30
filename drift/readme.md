@@ -6,5 +6,4 @@ Tested to be working with Vial 0.7.1
 
 VIAL Firmware GUI can be found here:  [get.vial.today](https://get.vial.today/)
 
-You can use this command to compile the firmware
-`qmk compile -kb majin/drift -km vial`
+Quantum Mechanical Keyboard Firmware - [QMK fork with Vial-specific features](https://github.com/vial-kb/vial-qmk)
