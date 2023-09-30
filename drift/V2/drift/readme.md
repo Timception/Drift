@@ -1,8 +1,11 @@
-# DRIFT split keyboard
+# DRIFT Keyboard by Timception
 
-DRIFT is a 68 key column-staggered split keyboard made by @timception. It uses the small but powerful RP2040 Zero.
+DRIFT Keyboard is a 68-key Staggered Ortholinear Split Keyboard made by [Timception](https://github.com/timception).
 
-If you are looking for a decent staggered ortholinear ergonomic mechanical keyboard, this should satisfy most needs.
+It uses the RP2040-Zero, has two oleds and roller encoders.
 
-You can use this command to compile the firmware
-`qmk compile -kb majin/drift -km vial`
+Tested to be working with Vial 0.7.1
+
+VIAL Firmware GUI can be found here:  [get.vial.today](https://get.vial.today/)
+
+Quantum Mechanical Keyboard Firmware - [QMK fork with Vial-specific features](https://github.com/vial-kb/vial-qmk)
