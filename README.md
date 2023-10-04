@@ -20,6 +20,7 @@ Roller Encoders: Panasonic EVQWGD001
 Serial Connector Cable: TRS and TRRS 3.5mm audio jacks can both be used
 
 Toggle Switch on each side to determine the Master (mstr) and Slave (slv) (VBUS)
+
 *u/YellowAfterlife from reddit, thank you for suggesting this :)
 
 
