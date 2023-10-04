@@ -5,7 +5,7 @@ A Hearty 68-Key Split Keyboard using Via-QMK firmware
 =========================================================
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
 
-Specifications (thank you u/YellowAfterlife from reddit):
+Specifications (u/YellowAfterlife from reddit, thank you for suggesting this):
 
 MCU: RP2040-ZERO
 
