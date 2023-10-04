@@ -5,8 +5,9 @@ A Hearty 68-Key Split Keyboard using Via-QMK firmware
 =========================================================
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
 
----------------------------------------------------------------------------------
+
 Specifications (u/YellowAfterlife from reddit, thank you for suggesting this):
+---------------------------------------------------------------------------------
 
 MCU: RP2040-ZERO
 
@@ -19,7 +20,7 @@ Roller Encoders: Panasonic EVQWGD001
 Serial Connector Cable: TRS and TRRS 3.5mm audio jacks can both be used
 
 Toggle Switch on each side to determine the Master (mstr) and Slave (slv) (VBUS)
-----------------------------------------------------------------------------------
+
 
 ![DRIFT_Keyboard_EV01psd](https://github.com/Timception/Drift/assets/84595044/a8ad2528-249f-4310-a324-4c62dbdfb540)
 
