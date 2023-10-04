@@ -21,6 +21,8 @@ Serial Connector Cable: Both TRS and TRRS 3.5mm audio jacks can be used
 
 Toggle Switch on each side to determine the Master (mstr) and Slave (slv) (VBUS)
 
+Dimensions: Width: 128mm (max) / 91mm (min), Length: 196mm
+
 *u/YellowAfterlife from reddit, thank you for suggesting this :)
 
 
