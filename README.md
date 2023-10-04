@@ -1,9 +1,23 @@
 # Drift Keyboard
 Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin_keyboards/)
 
-A Hearty 68-Key Split Keyboard using Vial firmware
+A Hearty 68-Key Split Keyboard using Via-QMK firmware
 =========================================================
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
+
+Specifications (thank you u/YellowAfterlife from reddit):
+
+MCU: RP2040-ZERO
+
+Switch Support: MX hotswap sockets, supports both 3 and 5 pin switches.
+
+Horizontally placed oleds: SSD1306 128x64
+
+Roller Encoders: Panasonic EVQWGD001
+
+Serial Connector Cable: TRS and TRRS 3.5mm audio jacks can both be used
+
+Toggle Switch on each side to determine the Master (mstr) and Slave (slv) (VBUS)
 
 ![DRIFT_Keyboard_EV01psd](https://github.com/Timception/Drift/assets/84595044/a8ad2528-249f-4310-a324-4c62dbdfb540)
 
@@ -11,7 +25,7 @@ A Hearty 68-Key Split Keyboard using Vial firmware
 
 ----====![ZANNIKB_LOGO](https://github.com/Timception/Drift/assets/84595044/16948fb5-0360-4244-a7d2-38ecee8af839)====----
 
-I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for OLED Animation Lessons! 
+I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for OLED Animation Lessons!
 
 ![IMG_3612](https://github.com/Timception/Drift/assets/84595044/4112aebc-5a67-485c-86f4-9d734125b426)
 
