@@ -11,13 +11,13 @@ Specifications:
 
 MCU: RP2040-ZERO
 
-Switch Support: MX hotswap sockets, supports both 3 and 5 pin switches.
+Switch Support: MX hotswap sockets; supports both 3 and 5 pin switches
 
-Horizontally placed oleds: SSD1306 128x64
+OLED: (Horizontally placed) SSD1306 128x64
 
-Roller Encoders: Panasonic EVQWGD001
+Encoder: Panasonic EVQWGD001 Roller Encoders
 
-Serial Connector Cable: TRS and TRRS 3.5mm audio jacks can both be used
+Serial Connector Cable: Both TRS and TRRS 3.5mm audio jacks can be used
 
 Toggle Switch on each side to determine the Master (mstr) and Slave (slv) (VBUS)
 
