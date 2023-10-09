@@ -26,6 +26,8 @@ Dimensions: Width: 128mm (max) / 91mm (min), Length: 196mm
 *u/YellowAfterlife from reddit, thank you for suggesting this :)
 
 
+Pixel Art by OLIVlOUS [INSTAGRAM](https://www.instagram.com/keebpixel) [KO-FI](https://ko-fi.com/olivious)
+
 ![DRIFT_Keyboard_EV01psd](https://github.com/Timception/Drift/assets/84595044/a8ad2528-249f-4310-a324-4c62dbdfb540)
 
 ![DRIFT_Keyboard_Kaiju](https://github.com/Timception/Drift/assets/84595044/a0f79aaa-8451-4e9c-bb01-142a24413e9a)
