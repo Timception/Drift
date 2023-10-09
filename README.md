@@ -51,8 +51,7 @@ I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for OLED Anima
 
 Cool Wallpaper by my pal Danm.edits [INSTAGRAM](https://www.instagram.com/danm.edits)
 ---------------------------------------------------------------------------------
-![DAN_5965](https://github.com/Timception/Drift/assets/84595044/686587ac-8c43-405f-b991-dbd7b38d20b1)
-
+![DAN_5965](https://github.com/Timception/Drift/assets/84595044/3ff825ec-2e8f-40c4-97f0-4374eda37f2f)
 
 
 Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping with the keyboard layout code.
