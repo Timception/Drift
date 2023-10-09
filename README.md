@@ -27,22 +27,32 @@ Dimensions: Width: 128mm (max) / 91mm (min), Length: 196mm
 
 
 
-Pixel Art by OLIVlOUS [INSTAGRAM](https://www.instagram.com/keebpixel) [KO-FI](https://ko-fi.com/olivious)
+Pixel Art by OLIVlOUS [INSTAGRAM](https://www.instagram.com/keebpixel) | [KO-FI](https://ko-fi.com/olivious)
 ---------------------------------------------------------------------------------
 
 ![DRIFT_Keyboard_EV01psd](https://github.com/Timception/Drift/assets/84595044/a8ad2528-249f-4310-a324-4c62dbdfb540)
 
 ![DRIFT_Keyboard_Kaiju](https://github.com/Timception/Drift/assets/84595044/a0f79aaa-8451-4e9c-bb01-142a24413e9a)
 
+
+
 ----====![ZANNIKB_LOGO](https://github.com/Timception/Drift/assets/84595044/16948fb5-0360-4244-a7d2-38ecee8af839)====----
 
 I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for OLED Animation Lessons!
+---------------------------------------------------------------------------------
 
 ![IMG_3612](https://github.com/Timception/Drift/assets/84595044/4112aebc-5a67-485c-86f4-9d734125b426)
 
 ![IMG_3611](https://github.com/Timception/Drift/assets/84595044/969f0606-bb76-474a-9234-e7497b6e417b)
 
 ![IMG_3610](https://github.com/Timception/Drift/assets/84595044/5441bd18-355f-417b-b26b-25d9020660c8)
+
+
+
+Cool Wallpaper by my pal Danm.edits [INSTAGRAM](https://www.instagram.com/danm.edits)
+---------------------------------------------------------------------------------
+![DAN_5965](https://github.com/Timception/Drift/assets/84595044/686587ac-8c43-405f-b991-dbd7b38d20b1)
+
 
 
 Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping with the keyboard layout code.
