@@ -6,6 +6,9 @@ A Hearty 68-Key Split Keyboard using Via-QMK firmware
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
 
 
+![PXL_20231009_192608306-01](https://github.com/Timception/Drift/assets/84595044/4f258b9e-0817-48a3-901b-7809438be2fd)
+
+
 Specifications:
 ---------------------------------------------------------------------------------
 
