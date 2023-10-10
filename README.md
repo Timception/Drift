@@ -41,7 +41,7 @@ Pixel Art by OLIVlOUS [INSTAGRAM](https://www.instagram.com/keebpixel) | [KO-FI]
 
 ----====![ZANNIKB_LOGO](https://github.com/Timception/Drift/assets/84595044/16948fb5-0360-4244-a7d2-38ecee8af839)====----
 
-I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for OLED Animation Lessons!
+I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for Cooler Animated versions of Firmware!
 ---------------------------------------------------------------------------------
 
 ![IMG_3612](https://github.com/Timception/Drift/assets/84595044/4112aebc-5a67-485c-86f4-9d734125b426)
