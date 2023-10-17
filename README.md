@@ -51,7 +51,7 @@ I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for Cooler Ani
 
 
 
-Cool Wallpaper by my pal Danm.edits [INSTAGRAM](https://www.instagram.com/danm.edits)
+Cool Wallpaper by my pal [Danm.edits](https://www.instagram.com/danm.edits)
 ---------------------------------------------------------------------------------
 ![DRIFT_DANMEDITS](https://github.com/Timception/Drift/assets/84595044/f156adec-f6c8-4baf-ab20-4583fb48fca4)
 
