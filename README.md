@@ -33,7 +33,7 @@ Dimensions: Width: 128mm (max) / 91mm (min), Length: 196mm
 
 
 
-Pixel Art by OLIVlOUS [INSTAGRAM](https://www.instagram.com/keebpixel) | [KO-FI](https://ko-fi.com/olivious)
+Pixel Art by [OLIVlOUS](https://www.instagram.com/keebpixel) | [KO-FI](https://ko-fi.com/olivious)
 ---------------------------------------------------------------------------------
 
 ![DRIFT_Keyboard_EV01psd](https://github.com/Timception/Drift/assets/84595044/a8ad2528-249f-4310-a324-4c62dbdfb540)
