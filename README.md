@@ -5,7 +5,6 @@ A Hearty 68-Key Split Keyboard using Via-QMK firmware
 =========================================================
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
 
-![Drift_KBDFANS_EVA08_1920x1080](https://github.com/Timception/Drift/assets/84595044/8d15f7ea-c605-4f26-971c-0087e263e1d2)
 
 ![Drift_Cyan_Purple](https://github.com/Timception/Drift/assets/84595044/90241f5b-bc75-43a6-833a-c3984175a96c)
 
@@ -28,6 +27,9 @@ Toggle Switch on each side to determine whether it is the Master (mstr) or Slave
 Dimensions: Width: 128mm (max) / 91mm (min), Length: 196mm
 
 *u/YellowAfterlife from reddit, thank you for suggesting this :)
+
+
+![Drift_KBDFANS_EVA08_1920x1080](https://github.com/Timception/Drift/assets/84595044/8d15f7ea-c605-4f26-971c-0087e263e1d2)
 
 
 
