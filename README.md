@@ -22,7 +22,7 @@ Encoder: Panasonic EVQWGD001 Roller Encoders
 
 Serial Connector Cable: Both TRS and TRRS 3.5mm audio jacks can be used
 
-Toggle Switch on each side to determine whether it is the Master (mstr) or Slave (slv) halve
+Toggle Switch on each side to determine the Master (mstr) or Slave (slv) state
 
 Dimensions: Width: 128mm (max) / 91mm (min), Length: 196mm
 
