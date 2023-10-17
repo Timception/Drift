@@ -5,8 +5,7 @@ A Hearty 68-Key Split Keyboard using Via-QMK firmware
 =========================================================
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
 
-
-![PXL_20231009_192608306-01](https://github.com/Timception/Drift/assets/84595044/4f258b9e-0817-48a3-901b-7809438be2fd)
+![Drift_Cyan_Purple](https://github.com/Timception/Drift/assets/84595044/90241f5b-bc75-43a6-833a-c3984175a96c)
 
 
 Specifications:
@@ -54,7 +53,8 @@ I owe [ZANNIKB](https://www.instagram.com/zannikb/) a HUGE thanks for Cooler Ani
 
 Cool Wallpaper by my pal Danm.edits [INSTAGRAM](https://www.instagram.com/danm.edits)
 ---------------------------------------------------------------------------------
-![DAN_5965](https://github.com/Timception/Drift/assets/84595044/3ff825ec-2e8f-40c4-97f0-4374eda37f2f)
+![DRIFT_DANMEDITS](https://github.com/Timception/Drift/assets/84595044/f156adec-f6c8-4baf-ab20-4583fb48fca4)
+
 
 
 Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping with the keyboard layout code.
