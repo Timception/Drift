@@ -3,7 +3,7 @@ Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin_keyboar
 
 I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin_keyboards/) or on reddit (u/timception)
 
-*User Manual/How to Use - [Click Here](https://github.com/Timception/Drift/tree/main/User%20Manual)
+*USER MANUAL / How to Use - [Click Here](https://github.com/Timception/Drift/tree/main/User%20Manual)
 
 
 A Hearty 68-Key Split Keyboard using Vial-QMK firmware
