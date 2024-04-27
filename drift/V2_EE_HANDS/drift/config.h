@@ -39,12 +39,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 #define MATRIX_ROW_PINS { GP10, GP11, GP14, GP15, GP26 }				// 5 Pins
 
 /* -==== Encoder Pins ====- */
-#define ENCODERS_PAD_A { GP28 }
-#define ENCODERS_PAD_B { GP27 }
+#define ENCODERS_PAD_A { GP27 }
+#define ENCODERS_PAD_B { GP28 }
 #define ENCODERS_PAD_A_RIGHT { GP27 }
 #define ENCODERS_PAD_B_RIGHT { GP28 }
 
-#define ENCODER_DIRECTION_FLIP
+//#define ENCODER_DIRECTION_FLIP
 //#define ENCODER_RESOLUTION 4
 //#define ENCODER_RESOLUTION 2
 #define ENCODER_DEFAULT_POS 0x3
