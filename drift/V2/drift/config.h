@@ -73,7 +73,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 #define USB_VBUS_PIN GP29
 
 /* Fix for the RP2040-ZERO Wake up bug - you can't enter BIOS with these enabled tho */
-// use this instead of VBUS hack above if lazy to use diodes and switches on each side
+// use this instead of VBUS hack above as an alternate option to schottky diodes and jumpers/switches
 //#define SPLIT_USB_TIMEOUT 10000
 //#define SPLIT_USB_TIMEOUT_POLL 10
 
