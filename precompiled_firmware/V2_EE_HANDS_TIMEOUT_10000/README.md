@@ -2,7 +2,7 @@
 
 =========================================================
 
-![Reference to the firmware modification](https://www.reddit.com/r/ErgoMechKeyboards/comments/11qxmn2/comment/jc6up8w/)
+[Reference to the firmware modification](https://www.reddit.com/r/ErgoMechKeyboards/comments/11qxmn2/comment/jc6up8w/)
 
 This version of the Drift allows for easy plug and play of any side to your computer/device, but may not be detected after a cold boot and will require you to replug in your keyboard.
 
