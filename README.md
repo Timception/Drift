@@ -10,6 +10,7 @@ A Hearty 68-Key Split Keyboard using Vial-QMK firmware
 =========================================================
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
 
+![Drift_Violet_Alert](https://github.com/user-attachments/assets/d189a734-1031-49f4-bbe0-3047e1bf285d)
 
 ![Drift_Cyan_Purple](https://github.com/Timception/Drift/assets/84595044/90241f5b-bc75-43a6-833a-c3984175a96c)
 
