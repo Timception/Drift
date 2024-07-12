@@ -1,9 +1,10 @@
-# Drift Keyboard
+# Use this firmware only if your version of the Drift Keyboard does not have switches or jumpers near the 3.5mm audio connector jack.
+
+=========================================================
+
 Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin_keyboards/) | [Other Links](https://solo.to/timception)
 
 I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin_keyboards/) or on reddit (u/timception)
-
-*Use this firmware only if your
 
 
 A Hearty 68-Key Split Keyboard using Vial-QMK firmware
