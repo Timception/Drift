@@ -23,13 +23,15 @@ Switch Support: MX hotswap sockets; supports both 3 and 5 pin switches
 
 OLED: (Horizontally placed) SSD1306 128x64
 
-Encoder: Panasonic EVQWGD001 Roller Encoders
+Encoder: Panasonic EVQWGD001 Roller Encoder and EC11 Knob Encoder
 
 Serial Connector Cable: Both TRS and TRRS 3.5mm audio jacks can be used
 
-Toggle Switch on each side to determine the Master (mstr) or Slave (slv) state
+Toggle Switch on each side to determine the Master (mstr) and Slave (slv) (VBUS)
 
-Dimensions: Width: 128mm (max) / 91mm (min), Length: 196mm
+or no  toggle switch for the EE_HANDS version
+
+Dimensions: Width: 128mm, Length: 196mm
 
 *u/YellowAfterlife from reddit, thank you for suggesting this :)
 
