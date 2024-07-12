@@ -1,33 +1,27 @@
-# Use this firmware only if your version of the Drift Keyboard does not have switches or jumpers near the 3.5mm audio connector jack.
+# Firmware only for Drift Keyboards without switches or jumpers near the 3.5mm connector jack.
+
+=========================================================
+
+![Reference to the firmware modification](https://www.reddit.com/r/ErgoMechKeyboards/comments/11qxmn2/comment/jc6up8w/)
+
+This version of the Drift allows for easy plug and play of any side to your computer/device, but may not be detected after a cold boot and will require you to replug in your keyboard.
+
+Split Keyboard's with the RP2040-Zero Microcontroller all have this issue unless a VBUS Pin is assigned with extra circuitry involved (seen in some of the earlier versions).
+
+To prevent newcomers of this hobby from cooking their microcontroller, I have decided to use the EE_HANDS version of the firmware.
+
+
+
+This firmware should allow your EE_HANDS version to work without having to unplug and replug the keyboard after a cold boot.
+
+The only drawback is that you will have to wait 10 seconds before the keyboard will be usable after you plug it in.
+
+
+
+
 
 =========================================================
 
 Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin_keyboards/) | [Other Links](https://solo.to/timception)
 
 I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin_keyboards/) or on reddit (u/timception)
-
-
-A Hearty 68-Key Split Keyboard using Vial-QMK firmware
-=========================================================
-*Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
-
-
-![Drift_Cyan_Purple](https://github.com/Timception/Drift/assets/84595044/90241f5b-bc75-43a6-833a-c3984175a96c)
-
-
-Specifications:
----------------------------------------------------------------------------------
-
-MCU: RP2040-ZERO
-
-Switch Support: MX hotswap sockets; supports both 3 and 5 pin switches
-
-OLED: (Horizontally placed) SSD1306 128x64
-
-Encoder: Panasonic EVQWGD001 Roller Encoders
-
-Serial Connector Cable: Both TRS and TRRS 3.5mm audio jacks can be used
-
-Toggle Switch on each side to determine the Master (mstr) or Slave (slv) state
-
-Dimensions: Width: 128mm (max) / 91mm (min), Length: 196mm
