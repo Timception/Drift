@@ -23,7 +23,3 @@ However the benefits that this chip has over the ancient Pro Micro was the reaso
 
 
 =========================================================
-
-Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin_keyboards/) | [Other Links](https://solo.to/timception)
-
-I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin_keyboards/) or on reddit (u/timception)
