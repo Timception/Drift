@@ -19,7 +19,7 @@ Switch Support: MX hotswap sockets; supports both 3 and 5 pin switches
 
 OLED: (Horizontally placed) SSD1306 128x64
 
-Encoder: Panasonic EVQWGD001 Roller Encoders
+Encoder: Panasonic EVQWGD001 Roller Encoder and EC11 Knob Encoder
 
 Serial Connector Cable: Both TRS and TRRS 3.5mm audio jacks can be used
 
