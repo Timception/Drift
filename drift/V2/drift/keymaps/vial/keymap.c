@@ -143,6 +143,7 @@ oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
 	return OLED_ROTATION_180; // Horizontal Screen
 }
 
+
 led_t led_usb_state;
 
 // L O G O  S T A T I C
@@ -489,14 +490,24 @@ static void print_zannikb_animation(void) {
 
 // N I C K  A N I M A T I O N  E N D
 
+uint32_t oled_tap_timer = 0;
 
 bool oled_task_user(void) {
-    // host Keyboard Layer Status
+    // host Keyboard Layer Status	
 
     current_wpm   = get_current_wpm();
-    led_usb_state = host_keyboard_led_state();
+    led_t led_usb_state = host_keyboard_led_state();
     
     if (is_keyboard_master()) {
+		
+		#ifdef WPM_ENABLE
+			static uint8_t prev_wpm = 0;
+			// Update oled_tap_timer with sustained WPM
+			if (get_current_wpm() > prev_wpm || get_mods()) {
+				oled_tap_timer = timer_read32();
+			}
+			prev_wpm = get_current_wpm();
+		#endif
 
         oled_set_cursor(0,1);
             // print current layer 
@@ -523,6 +534,9 @@ bool oled_task_user(void) {
         oled_set_cursor(0, 3);
             // run animation
             print_zannikb_animation();
+			if (timer_elapsed32(oled_tap_timer) > OLED_TIMEOUT) {
+				oled_off();
+				}
     } else {
         oled_set_cursor(0, 0);
             oled_write("CAPS", led_usb_state.caps_lock);
@@ -540,6 +554,13 @@ bool oled_task_user(void) {
     oled_write_P(led_state.scroll_lock ? PSTR(" SCR") : PSTR("   "), false);*/ 
     return false;
 }
+
+// The layer_state_set_user() callback is called every time the layer state changes.
+layer_state_t layer_state_set_user(layer_state_t state) {	
+	oled_tap_timer = timer_read32(); //This is what triggers the oled to wake up.
+	return state;
+}
+
 
 #endif
 
@@ -609,6 +630,13 @@ float song42[][2] = SONG(NOCTURNE_OP_9_NO_1);
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
+		case KC_VOLD:
+		  oled_tap_timer = timer_read32(); //This is what triggers the oled to wake up.
+		  break;
+		  
+		case KC_VOLU:
+		  oled_tap_timer = timer_read32(); //This is what triggers the oled to wake up.
+		  break;
 		/*
 		case KC_LSFT:
             if (record->event.pressed) {
@@ -1008,7 +1036,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     return true;
 }
 
-const uint8_t music_map[MATRIX_ROWS][MATRIX_COLS] = LAYOUT_8x5(	 
+const uint8_t music_map[MATRIX_ROWS][MATRIX_COLS] = LAYOUT(	 
 	54, 55, 56, 57, 58, 59, 60, 61,         62, 63, 64, 65, 66, 67, 68, 69,
 	38, 39, 40, 41, 42, 43, 44, 45,         46, 47, 48, 49, 50, 51, 52, 53,
 	    24, 25, 26, 27, 28, 29, 30,         31, 32, 33, 34, 35, 36, 37,

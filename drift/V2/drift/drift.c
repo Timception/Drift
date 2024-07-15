@@ -70,5 +70,15 @@ const uint8_t PROGMEM encoder_hand_swap_config[NUM_ENCODERS] = {1, 0};
 */
 
 
+void suspend_power_down_kb(void) {
+    //rgb_matrix_set_suspend_state(true);
+    suspend_power_down_user();
+}
+
+void suspend_wakeup_init_kb(void) {
+    //rgb_matrix_set_suspend_state(false);
+    suspend_wakeup_init_user();
+}
+
 
 

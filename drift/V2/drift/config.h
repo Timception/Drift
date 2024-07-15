@@ -30,29 +30,29 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 
 /* Key Matrix Size */
 // rows are doubled-up in split keyboards
-#define MATRIX_COLS 8
-#define MATRIX_ROWS 10
-#define DIODE_DIRECTION COL2ROW
+//#define MATRIX_COLS 8
+//#define MATRIX_ROWS 10
+//#define DIODE_DIRECTION COL2ROW
 
 /* Wiring of Columns and Rows */
-#define MATRIX_COL_PINS { GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9 }		// 8 Pins
-#define MATRIX_ROW_PINS { GP10, GP11, GP14, GP15, GP26 }				// 5 Pins
+//#define MATRIX_COL_PINS { GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9 }		// 8 Pins
+//#define MATRIX_ROW_PINS { GP10, GP11, GP14, GP15, GP26 }				// 5 Pins
 
 /* -==== Encoder Pins ====- */
-#define ENCODERS_PAD_A { GP28 }
-#define ENCODERS_PAD_B { GP27 }
-#define ENCODERS_PAD_A_RIGHT { GP27 }
-#define ENCODERS_PAD_B_RIGHT { GP28 }
+//#define ENCODERS_PAD_A { GP28 }
+//#define ENCODERS_PAD_B { GP27 }
+//#define ENCODERS_PAD_A_RIGHT { GP27 }
+//#define ENCODERS_PAD_B_RIGHT { GP28 }
 
-#define ENCODER_DIRECTION_FLIP
+//#define ENCODER_DIRECTION_FLIP
 //#define ENCODER_RESOLUTION 4
 //#define ENCODER_RESOLUTION 2
-#define ENCODER_DEFAULT_POS 0x3
+//#define ENCODER_DEFAULT_POS 0x3
 
 /* Split Definitions */
-#define SPLIT_LAYER_STATE_ENABLE
-#define SPLIT_LED_STATE_ENABLE
-#define SPLIT_MODS_ENABLE
+//#define SPLIT_LAYER_STATE_ENABLE
+//#define SPLIT_LED_STATE_ENABLE
+//#define SPLIT_MODS_ENABLE
 
 /* Serial settings */
 #define USE_SERIAL
@@ -67,13 +67,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 // The Half-duplex operation mode uses the built-in pull-ups and GPIO manipulation on the RP2040
 // to drive the line high by default. An external pull-up is therefore not necessary.
 
+//Flip the toggle switch up to MSTR (master state) when flashing each side individually (remove the 3.5mm cable before flashing firmware).
+//After done flashing each side, switch the slave half's toggle switch down to SLV (slave) before use.
+//#define MASTER_LEFT
+#define MASTER_RIGHT
+
 /* External VBUS via 5V through diode to GP29 */
 // for rp2040 | When USB_VBUS_PIN is not defined, SPLIT_USB_DETECT is used.
 #undef SPLIT_USB_DETECT
 #define USB_VBUS_PIN GP29
 
 /* Fix for the RP2040-ZERO Wake up bug - you can't enter BIOS with these enabled tho */
-// use this instead of VBUS hack above as an alternate option to schottky diodes and jumpers/switches
+// use this instead of VBUS hack above if lazy to use diodes and switches on each side
 //#define SPLIT_USB_TIMEOUT 10000
 //#define SPLIT_USB_TIMEOUT_POLL 10
 
