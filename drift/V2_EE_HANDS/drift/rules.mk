@@ -21,7 +21,7 @@ WPM_ENABLE	= yes
 LTO_ENABLE = no
 
 # Split Keyboard Settings
-SPLIT_KEYBOARD = yes
+#SPLIT_KEYBOARD = yes
 #SWAP_HANDS_ENABLE = yes
 
 #SPACE SAVING
