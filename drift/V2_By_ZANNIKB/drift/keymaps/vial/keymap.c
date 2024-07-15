@@ -1036,7 +1036,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     return true;
 }
 
-const uint8_t music_map[MATRIX_ROWS][MATRIX_COLS] = LAYOUT_8x5(	 
+const uint8_t music_map[MATRIX_ROWS][MATRIX_COLS] = LAYOUT(	 
 	54, 55, 56, 57, 58, 59, 60, 61,         62, 63, 64, 65, 66, 67, 68, 69,
 	38, 39, 40, 41, 42, 43, 44, 45,         46, 47, 48, 49, 50, 51, 52, 53,
 	    24, 25, 26, 27, 28, 29, 30,         31, 32, 33, 34, 35, 36, 37,

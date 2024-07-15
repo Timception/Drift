@@ -11,9 +11,9 @@ ENCODER_MAP_ENABLE		= yes
 CONSOLE_ENABLE			= no	# Console for debug
 COMMAND_ENABLE			= no	# Commands for debug and configuration
 QMK_SETTINGS			= no
-TAP_DANCE_ENABLE		= no
-COMBO_ENABLE			= no
-KEY_OVERRIDE_ENABLE		= no
+TAP_DANCE_ENABLE		= yes
+COMBO_ENABLE			= yes
+KEY_OVERRIDE_ENABLE		= yes
 VIALRGB_ENABLE			= no
 
 # OLED Animation Stuff
