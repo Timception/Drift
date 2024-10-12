@@ -2,7 +2,7 @@
   "keyboard_name" : "Drift V2.4",
   "maintainer" : "Timception",
   "url" : "https://github.com/Timception/Drift",
-  "manufacturer" : "Majin",
+  "manufacturer" : "Timception",
   "usb": {
     "vid": "0x5965",
     "pid": "0x6D6A",
