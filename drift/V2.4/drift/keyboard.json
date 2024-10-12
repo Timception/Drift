@@ -2,8 +2,46 @@
   "keyboard_name" : "Drift V2.4",
   "maintainer" : "Timception",
   "url" : "https://github.com/Timception/Drift",
-  "manufacturer" : "Timception",
-
+  "manufacturer" : "Majin",
+  "usb": {
+    "vid": "0x5965",
+    "pid": "0x6D6A",
+    "device_version": "0.0.1"
+  },
+  "processor": "RP2040",
+  "bootloader": "rp2040",
+  "diode_direction": "COL2ROW",
+  "matrix_pins": {
+    "cols": ["GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9"],
+    "rows": ["GP10", "GP11", "GP14", "GP15", "GP26"]
+    },
+  "split": {
+    "enabled": true,
+    "transport": {
+      "sync": {
+        "indicators": true,
+        "layer_state": true,
+        "matrix_state": true,
+        "modifiers": true
+      }
+    },
+    "encoder": {
+      "right": {
+        "rotary": [{
+          "pin_a": "GP27",
+          "pin_b": "GP28",
+          "resolution": 4
+        }]
+      }
+    }
+  },
+  "encoder": {
+    "rotary": [{
+      "pin_a": "GP28",
+      "pin_b": "GP27",
+      "resolution": 4
+    }]
+  },
   "layouts" : {
     "LAYOUT" : {
       "layout" : [
@@ -88,44 +126,5 @@
         {"matrix" : [ 9, 4 ], "x" : 15, "y" : 4.1}
       ]
     }
-  },
-  "processor": "RP2040",
-  "bootloader": "rp2040",
-  "diode_direction": "COL2ROW",
-  "matrix_pins": {
-    "cols": ["GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9"],
-    "rows": ["GP10", "GP11", "GP14", "GP15", "GP26"]
-    },
-  "split": {
-    "enabled": true,
-    "transport": {
-      "sync": {
-        "indicators": true,
-        "layer_state": true,
-        "matrix_state": true,
-        "modifiers": true
-      }
-    },
-    "encoder": {
-      "right": {
-        "rotary": [{
-          "pin_a": "GP27",
-          "pin_b": "GP28",
-          "resolution": 4
-        }]
-      }
-    }
-  },
-  "encoder": {
-    "rotary": [{
-      "pin_a": "GP28",
-      "pin_b": "GP27",
-      "resolution": 4
-    }]
-  },
-  "usb": {
-    "vid": "0x5965",
-    "pid": "0x6D6A",
-    "device_version": "0.0.1"
-  }
+  }  
 }
