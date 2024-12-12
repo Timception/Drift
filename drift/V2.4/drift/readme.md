@@ -13,9 +13,9 @@ Quantum Mechanical Keyboard Firmware (VIAL Version) - [QMK fork with Vial-specif
 ===================================================================================================================
 
 Use this command line to flash the left side:
-qmk flash -kb (keyboard/folder/location) -km vial -bl uf2-split-left
+qmk flash -kb keyboard/folder/location -km vial -bl uf2-split-left
 
 
 
 Use this command line to flash the right side:
-qmk flash -kb (keyboard/folder/location) -km vial -bl uf2-split-right
+qmk flash -kb keyboard/folder/location -km vial -bl uf2-split-right
