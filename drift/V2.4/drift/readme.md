@@ -10,7 +10,7 @@ VIAL Firmware GUI can be found here:  [get.vial.today](https://get.vial.today/)
 
 Quantum Mechanical Keyboard Firmware (VIAL Version) - [QMK fork with Vial-specific features](https://github.com/vial-kb/vial-qmk)
 
-===================================================================================================================
+=====================================================================
 
 Use this command line to flash the left side:
 qmk flash -kb keyboard/folder/location -km vial -bl uf2-split-left
