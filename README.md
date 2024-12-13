@@ -34,13 +34,6 @@ or no  toggle switch for the EE_HANDS version
 
 Dimensions: Width: 128mm, Length: 196mm
 
-*u/YellowAfterlife from reddit, thank you for suggesting this :)
----------------------------------------------------------------------------------
-# Layout for the first 2 layers:
-
-![Drift_Layout_Layer_0](https://github.com/user-attachments/assets/2b948421-e32c-481a-aa9c-ba9646f4ed47)
-
-![Drift_Layout_Layer_1](https://github.com/user-attachments/assets/467f5b21-e310-4386-af03-06336aebc029)
 
 ---------------------------------------------------------------------------------
 ![Drift_KBDFANS_EVA08_1920x1080](https://github.com/Timception/Drift/assets/84595044/8d15f7ea-c605-4f26-971c-0087e263e1d2)
