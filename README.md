@@ -66,5 +66,4 @@ Cool Wallpaper by my pal [Danm.edits](https://www.instagram.com/danm.edits)
 
 Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping with the keyboard layout code.
 
-Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for helping with some hardware issues when RP2040-Zero was still a new mcu for QMK.
-Please Check out his [Products](https://lectronz.com/stores/tweetys-wild-thinking).
+Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for patiently helping with some issues when RP2040-Zero was still a new mcu for QMK.
