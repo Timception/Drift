@@ -1,7 +1,7 @@
 # Drift Keyboard
-Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin_keyboards/) | [Other Links](https://solo.to/timception)
+Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin.keyboards/) | [Other Links](https://solo.to/timception)
 
-I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin_keyboards/) or on reddit (u/timception)
+I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/) or on reddit (u/timception)
 
 *USER MANUAL / How to Use (only for versions 2.3 or if you see a visible side switch on each side next to the oled) - [Click Here](https://github.com/Timception/Drift/tree/main/User%20Manual)
 
