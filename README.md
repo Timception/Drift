@@ -1,9 +1,12 @@
-# Drift Keyboard
-Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin.keyboards/) | [Other Links](https://solo.to/timception)
+# Drift Keyboard  
+Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin.keyboards/) | [Other Links](https://solo.to/timception)  
 
-I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/) or on reddit (u/timception)
+I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/) or on reddit (u/timception)  
 
-*USER MANUAL / How to Use (only for versions 2.3 or if you see a visible side switch on each side next to the oled) - [Click Here](https://github.com/Timception/Drift/tree/main/User%20Manual)
+## For those interested: [Drift Keyboard V3](https://github.com/Timception/zmk-config-drift-v3-editor)  
+
+ - The outer acrylic, plates, OLED covers and bottom pieces are all compatible with this version as well
+<br/><br/>  
 
 
 A Hearty 68-Key Split Keyboard using Vial-QMK firmware
