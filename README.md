@@ -36,16 +36,19 @@ Serial Connector Cable: Either TRS or TRRS 3.5mm audio jacks can be used
 
 Dimensions: Width: 128mm, Length: 196mm  
 
-> [!Caution]
+> [!Caution]  
 > You MUST NOT plug in or disconnect your 3.5mm audio connector when the USB-C is connected, otherwise, you may cook your keyboard.  
 > 3.5mm audio connectors are the better choice vs USB-C - don't argue,  
 > you will agree with me fast when you try making your own split keyboard.  
 >  
 > I have been using split keyboards since 2022 with prior knowledge about this issue, zero problems so far.  
 > Keep out of reach of children or unpowered to prevent accidents happening with the 3.5mm cable.  
-> 
+>   
 > However, mistakes can happen, and you can use a heat gun to remove the MCU and replace it with a new one.  
 > Just don't forget to flash firmware on it first.  
+>  
+> The RP2040-Zero MCU requires you to hold the BOOT button before plugging in the USB to enter bootloader mode.  
+> A new drive will appear, then you can simply drag the .uf2 firmware file into it and wait for it to complete.  
 <br/>  
 
 
