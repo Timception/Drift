@@ -1,16 +1,14 @@
-# Drift Keyboard  
+# Drift Keyboard V2  
+
+## For those interested: [Drift Keyboard V3](https://github.com/Timception/zmk-config-drift-v3-editor) is now available  
+
 Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin.keyboards/) | [Other Links](https://solo.to/timception)  
 
 I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/) or on reddit (u/timception)  
 
-## For those interested: [Drift Keyboard V3](https://github.com/Timception/zmk-config-drift-v3-editor)  
 
- - The outer acrylic, plates, OLED covers and bottom pieces are all compatible with this version as well
-<br/><br/>  
-
-
-A Hearty 68-Key Split Keyboard using [Vial-QMK](https://github.com/vial-kb/vial-qmk) firmware
-=========================================================
+### A Hearty 68-Key Split Keyboard using [Vial-QMK](https://github.com/vial-kb/vial-qmk) firmware  
+=========================================================  
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)  
 
 This keyboard was designed for users who prefer a familiar typing experience  
