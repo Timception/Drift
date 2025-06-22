@@ -42,7 +42,8 @@ Dimensions: Width: 128mm, Length: 196mm
 > you will agree with me fast when you try making your own split keyboard.  
 >  
 > I have been using split keyboards since 2022 with prior knowledge about this issue, zero problems so far.  
-> Those who cannot plug in their audio jacks before powering their split keyboard - you have a skill issue, sorry.  
+> Those who cannot plug in their audio jacks before powering their split keyboard - you have a skill issue, sorry.
+> 
 > However, mistakes can happen, and you can use a heat gun to remove the MCU and replace it with a new one.  
 > Just don't forget to flash firmware on it first.  
 <br/>  
