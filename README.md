@@ -11,7 +11,10 @@ These can be shipped internationally - DM me on [INSTAGRAM](https://www.instagra
 
 This keyboard was designed for users who prefer a familiar typing experience of a 65% keyboard  
 without having to learn new shortcuts — while enjoying the ergonomic benefits of a split layout.  
+
+[Adobe .ai files to lasercut your own acrylic plates](https://github.com/Timception/Drift/tree/main/Plate)  
 <br/>  
+
 
 ![Drift_Violet_Alert](https://github.com/user-attachments/assets/d189a734-1031-49f4-bbe0-3047e1bf285d)  
 
