@@ -9,7 +9,7 @@ These can be shipped internationally - DM me on [INSTAGRAM](https://www.instagra
 =========================================================  
 *Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)  
 
-This keyboard was designed for users who prefer a familiar typing experience  
+This keyboard was designed for users who prefer a familiar typing experience of a 65% keyboard  
 without having to learn new shortcuts — while enjoying the ergonomic benefits of a split layout.  
 <br/>  
 
