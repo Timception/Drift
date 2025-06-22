@@ -1,10 +1,8 @@
-# Drift Keyboard V2  
+# Drift Keyboard V2 by Timception  
 
 ## For those interested: [Drift Keyboard V3](https://github.com/Timception/zmk-config-drift-v3-editor) is now available  
 
-Drift Keyboard by Timception [INSTAGRAM](https://www.instagram.com/majin.keyboards/) | [Other Links](https://solo.to/timception)  
-
-I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/) or on reddit (u/timception)  
+These can be shipped nternationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/) or on reddit (u/timception)  
 
 
 ### A Hearty 68-Key Split Keyboard using [Vial-QMK](https://github.com/vial-kb/vial-qmk) firmware  
@@ -13,10 +11,11 @@ I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/ma
 
 This keyboard was designed for users who prefer a familiar typing experience  
 without having to learn new shortcuts — while enjoying the ergonomic benefits of a split layout.  
+<br/>  
 
-![Drift_Violet_Alert](https://github.com/user-attachments/assets/d189a734-1031-49f4-bbe0-3047e1bf285d)
+![Drift_Violet_Alert](https://github.com/user-attachments/assets/d189a734-1031-49f4-bbe0-3047e1bf285d)  
 
-![Drift_Cyan_Purple](https://github.com/Timception/Drift/assets/84595044/90241f5b-bc75-43a6-833a-c3984175a96c)
+![Drift_Cyan_Purple](https://github.com/Timception/Drift/assets/84595044/90241f5b-bc75-43a6-833a-c3984175a96c)  
 
 
 Specifications:
