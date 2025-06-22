@@ -9,9 +9,12 @@ I ship these Internationally - DM me on [INSTAGRAM](https://www.instagram.com/ma
 <br/><br/>  
 
 
-A Hearty 68-Key Split Keyboard using Vial-QMK firmware
+A Hearty 68-Key Split Keyboard using [Vial-QMK](https://github.com/vial-kb/vial-qmk) firmware
 =========================================================
-*Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)
+*Can fully support the Thai Alphabet (สปลิทคีย์บอร์ดสำหรับคนไทย)  
+
+This keyboard was designed for users who prefer a familiar typing experience  
+without having to learn new shortcuts — while enjoying the ergonomic benefits of a split layout.  
 
 ![Drift_Violet_Alert](https://github.com/user-attachments/assets/d189a734-1031-49f4-bbe0-3047e1bf285d)
 
@@ -21,21 +24,21 @@ A Hearty 68-Key Split Keyboard using Vial-QMK firmware
 Specifications:
 ---------------------------------------------------------------------------------
 
-MCU: RP2040-ZERO
+MCU: RP2040-ZERO  
 
-Switch Support: MX hotswap sockets; supports both 3 and 5 pin switches
+Switch Support: MX hotswap sockets; supports both 3 and 5 pin switches  
 
-OLED: (Horizontally placed) SSD1306 128x64
+OLED: (Horizontally placed) SSD1306 128x64  
 
-Encoder: Panasonic EVQWGD001 Roller Encoder and EC11 Knob Encoder
+Encoder: The Limited Panasonic EVQWGD001 Roller Encoder and the EC11 Encoder  
 
-Serial Connector Cable: Both TRS and TRRS 3.5mm audio jacks can be used
+Serial Connector Cable: Either TRS or TRRS 3.5mm audio jacks can be used  
 
-Toggle Switch on each side to determine the Master (mstr) and Slave (slv) (VBUS)
+Dimensions: Width: 128mm, Length: 196mm  
 
-or no  toggle switch for the EE_HANDS version
+Inspired by Foostan's [Corne Keyboard](https://github.com/foostan/crkbd)  
 
-Dimensions: Width: 128mm, Length: 196mm
+The reversible pcb design from the [Sofle Keyboard](https://josefadamcik.github.io/SofleKeyboard/) was also an inspiring factor  
 
 
 ---------------------------------------------------------------------------------
