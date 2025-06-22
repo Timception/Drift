@@ -36,10 +36,6 @@ Serial Connector Cable: Either TRS or TRRS 3.5mm audio jacks can be used
 
 Dimensions: Width: 128mm, Length: 196mm  
 
-Inspired by Foostan's [Corne Keyboard](https://github.com/foostan/crkbd)  
-
-The reversible pcb design from the [Sofle Keyboard](https://josefadamcik.github.io/SofleKeyboard/) was also an inspiring factor  
-
 
 ---------------------------------------------------------------------------------
 ![Drift_KBDFANS_EVA08_1920x1080](https://github.com/Timception/Drift/assets/84595044/8d15f7ea-c605-4f26-971c-0087e263e1d2)
@@ -72,4 +68,8 @@ Cool Wallpaper by my pal [Danm.edits](https://www.instagram.com/danm.edits)
 
 Special Thanks to [Tecsmith](https://github.com/Tecsmith) for making this keyboard even possible since the start, and for helping with the keyboard layout code.
 
-Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for patiently helping with some issues when RP2040-Zero was still a new mcu for QMK.
+Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for patiently helping with some issues when RP2040-Zero was still a new mcu for QMK.  
+
+Inspired by Foostan's [Corne Keyboard](https://github.com/foostan/crkbd)  
+
+The reversible pcb design from the [Sofle Keyboard](https://josefadamcik.github.io/SofleKeyboard/) was also an inspiring factor  
