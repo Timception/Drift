@@ -36,6 +36,13 @@ Serial Connector Cable: Either TRS or TRRS 3.5mm audio jacks can be used
 
 Dimensions: Width: 128mm, Length: 196mm  
 
+> [!Note]
+> 3.5mm audio connectors are the better choice vs USB-C - don't argue,  
+> you will agree with me fast when you try making your own split keyboard.  
+>   
+> Those who cannot plug in their audio jacks before powering their split keyboard - you have a skill issue, sorry.  
+<br/>  
+
 
 ---------------------------------------------------------------------------------
 ![Drift_KBDFANS_EVA08_1920x1080](https://github.com/Timception/Drift/assets/84595044/8d15f7ea-c605-4f26-971c-0087e263e1d2)
