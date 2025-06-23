@@ -48,7 +48,10 @@ Serial Connector Cable: Either TRS or TRRS 3.5mm audio jacks can be used
 Dimensions: Width: 128mm, Length: 196mm  
 
 > [!Caution]  
-> You MUST NOT plug in or disconnect your 3.5mm audio connector when the USB-C is connected, otherwise, you may cook your keyboard.  
+> You MUST NOT plug in or disconnect your 3.5mm audio connector when the USB-C is connected, otherwise, you may cook your keyboard.
+>  
+> WHEN IN DOUBT - IMMEDIATELY UNPLUG YOUR USB-C - EASY..
+>  
 > 3.5mm audio connectors are the better choice vs USB-C - don't argue,  
 > you will agree with me fast when you try making your own split keyboard.  
 >  
