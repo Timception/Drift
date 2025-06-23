@@ -81,6 +81,8 @@ Dimensions: Width: 128mm, Length: 196mm
 - The three curved keys on the bottom of each half is called the "Thumb Cluster". By default, they middle key of each thumb cluster is the spacebar.
 
 - It is highly recommended that you understand [LAYERS](https://get.vial.today/manual/layers.html) - when a momentary layer key is assigned "MO(layer number)", the keys on the layers above it should be set to transparent (KC_TRANS), the triangle symbol in the Vial App.
+
+  - This keyboard has 4 layers and the first layer is layer 0 (Zero), so this is the order: Layer 0, Layer 1, Layer 2 and Layer 3.
 <br/>  
 
 ### Versions  
