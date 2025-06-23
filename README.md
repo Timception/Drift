@@ -105,7 +105,7 @@ If your Drift Keyboard has switches on the side that determine the master and th
  
   - After the firmware has completed loading, the drive should disappear and you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
  
-  - Do the same with the right half: Set to Master, press RESET to enter bootloader mode, drop in the right side firmware, unplug, set to slave (SLV).  
+  - Do the same with the right half: Set to Master, press RESET to enter bootloader mode (Hold MO(2) and press the top right button), drop the firmware for the right side into the drive that shows up, unplug, set to slave (SLV).  
  
   - After these steps have been done successfully - you could even snap the switches off with some cutting pliers to prevent yourself from accidentally switching them on in the future.  
 <br/>  
