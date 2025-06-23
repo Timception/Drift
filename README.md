@@ -80,11 +80,11 @@ Dimensions: Width: 128mm, Length: 196mm
 
 ### Versions  
 
-- Version 4 [(Drift Keyboard V4)]() - 3D Printer friendly, smaller, 64-key version of the drift keyboard  
+- Version 4 (Drift Keyboard V4) - 3D Printer friendly, smaller, 64-key version of the drift keyboard  
 
-- Version 3 [(Drift Keyboard V3) Wireless]() - Drift V2, but with a Bluetooth Enabled MCU using ZMK firmware  
+- Version 3 [(Drift Keyboard V3) Wireless](https://github.com/Timception/zmk-config-drift-v3-editor) - Drift V2, but with a Bluetooth Enabled MCU using ZMK firmware  
 
-- Version 3 [(Drift Keyboard V3) Wired]() - Drift V3, but with an RP2040 Promicro MCU using Vial-QMK firmware  
+- Version 3 [(Drift Keyboard V3) Wired](https://github.com/Timception/Drift-Keyboard-V3-Wired-Vial-Version) - Drift V3, but with an RP2040 Promicro MCU using Vial-QMK firmware  
 
 - Version 2 (Drift Keyboard V2) - The original Drift Keyboard by Timception, with an RP2040-Zero MCU running Vial-QMK  
 
