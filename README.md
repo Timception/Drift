@@ -80,7 +80,7 @@ Dimensions: Width: 128mm, Length: 196mm
 
    - These audio toggles can be found in the Quantum section of the vial app.  
 
-- The three curved keys on the bottom of each half is called the "Thumb Cluster". By default, they middle key of each thumb cluster is the spacebar.
+- The three curved keys on the bottom of each half is called the "Thumb Cluster". By default, the middle key of the thumb cluster on each half is the spacebar.
 
 - It is highly recommended that you understand [LAYERS](https://get.vial.today/manual/layers.html) - when a momentary layer key is assigned "MO(layer number)", the keys on the layers above it should be set to transparent (KC_TRANS), the triangle symbol in the Vial App.
 
