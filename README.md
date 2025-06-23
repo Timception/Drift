@@ -11,9 +11,10 @@
 
 - [Basics](#basics) - How to use / Basics  
 
-- [Versions](#versions) - Versions of the Drift Keyboard
+- [Versions](#versions) - Versions of the Drift Keyboard  
 
-- [Updating Early Versions](#updating-earlier-versions) - How to update earlier versions with newer firmware
+- [Updating Early Versions](#updating-earlier-versions) - How to update earlier versions with newer firmware  
+<br/>  
 
 
 ### A Hearty 68-Key Split Keyboard using [Vial-QMK](https://github.com/vial-kb/vial-qmk) firmware  
