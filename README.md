@@ -90,7 +90,7 @@ Dimensions: Width: 128mm, Length: 196mm
 ### Versions  
 ---------------------------------------------------------------------------------
 
-- Version 4 (Drift Keyboard V4) - A 3D-Printer-friendly, smaller, 64-key version of the drift keyboard (almost complete)  
+- Version 4 (Drift Keyboard V4) - A 3D-Printer-friendly, smaller, 64-key version (ready soon!)  
 
 - Version 3 [(Drift Keyboard V3) Wireless](https://github.com/Timception/zmk-config-drift-v3-editor) - Drift V2, but with a [Bluetooth Enabled MCU](https://typeractive.xyz/products/nice-nano?srsltid=AfmBOoqTj6BHxsCO7DdQzWo3j5JDLrUqV27tlrLa0qgTC-CWxB9Fa6lW) using ZMK firmware  
 
