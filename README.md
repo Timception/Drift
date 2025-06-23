@@ -47,7 +47,7 @@ Serial Connector Cable: Either TRS or TRRS 3.5mm audio jacks can be used
 
 Dimensions: Width: 128mm, Length: 196mm  
 
-> [!Caution]  
+> [!Important]  
 > You MUST NOT plug in or disconnect your 3.5mm audio connector when the USB-C is connected, otherwise, you may cook your keyboard.
 >  
 > WHEN IN DOUBT - IMMEDIATELY UNPLUG YOUR USB-C - EASY..
