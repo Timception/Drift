@@ -59,28 +59,34 @@ Dimensions: Width: 128mm, Length: 196mm
 > Just don't forget to flash firmware on it first.  
 >  
 > The RP2040-Zero MCU requires you to hold the BOOT button before plugging in the USB to enter bootloader mode.  
+> You could also press the RESET button if you know where it is in your keymap.  
 > A new drive will appear, then you can simply drag the .uf2 firmware file into it and wait for it to complete.  
-<br/>
+> When flashing firmware, one side at a time (unplug the 3.5mm connector).  
+<br/>  
 
 
 ### Basics  
+---------------------------------------------------------------------------------
 
-- You can [download the Vial App](https://get.vial.today/download/) to see where all your keys are
+- You can [download the Vial App](https://get.vial.today/download/) to see where all your keys are, this is a must.  
   
-- To turn off the beeping sounds you can press "Audio Toggle" found on the last layer (the left encoder)  
+- To turn off the beeping sounds you can press "Audio Toggle" found on the last layer (the left encoder).  
 
-- This keyboard also has a [Music Mode](https://docs.qmk.fm/features/audio#music-mode) (an interesting feature that could be implemented).  
+- This keyboard also has a [Music Mode](https://docs.qmk.fm/features/audio#music-mode) (an interesting feature that could be implemented and therefore, was implemented).  
 
-  - By pressing the left encoder on the default layer you will toggle [Music Mode](https://docs.qmk.fm/features/audio#music-mode). Your keyboard is now a instrument and unusable until you press "Music Toggle" again.  
+  - By pressing the left encoder on the default layer you will toggle [Music Mode](https://docs.qmk.fm/features/audio#music-mode). Your keyboard is now a musical instrument and unusable until you press "Music Toggle" again.  
 
    - These audio toggles can be found in the Quantum section of the vial app.  
 
-- The three curved keys on the bottom of each half is called the "Thumb Cluster". By default, they middle key of each thumb cluster is the spacebar.  
+- The three curved keys on the bottom of each half is called the "Thumb Cluster". By default, they middle key of each thumb cluster is the spacebar.
+
+- It is highly recommended that you understand [LAYERS](https://get.vial.today/manual/layers.html) - when a momentary layer key is assigned "MO(layer number)", the keys on the layers above it should be set to transparent (KC_TRANS), the triangle symbol in the Vial App.
 <br/>  
 
 ### Versions  
+---------------------------------------------------------------------------------
 
-- Version 4 (Drift Keyboard V4) - 3D Printer friendly, smaller, 64-key version of the drift keyboard  
+- Version 4 (Drift Keyboard V4) - A 3D-Printer-friendly, smaller, 64-key version of the drift keyboard (almost complete)  
 
 - Version 3 [(Drift Keyboard V3) Wireless](https://github.com/Timception/zmk-config-drift-v3-editor) - Drift V2, but with a Bluetooth Enabled MCU using ZMK firmware  
 
@@ -88,10 +94,11 @@ Dimensions: Width: 128mm, Length: 196mm
 
 - Version 2 (Drift Keyboard V2) - The original Drift Keyboard by Timception, with an RP2040-Zero MCU running Vial-QMK  
 
-- Early Versions - These versions have a master and slave switch beside the OLEDs  
+- Early Versions - These versions have a master (MSTR) and slave (SLV) switch beside the OLEDs  
 <br/>  
 
 ### Updating Earlier Versions  
+---------------------------------------------------------------------------------
 
 If your Drift Keyboard has switches on the side that determine the master and the slave, you can update your firmware and forget about those switches forever.  
 
@@ -101,15 +108,15 @@ If your Drift Keyboard has switches on the side that determine the master and th
 
   - You can hold the MO(1) key then hit the RESET button on the top left of the keyboard to enter bootloader mode.  
 
-  - You can drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/tree/main/precompiled_firmware/V2_Everything_Unlocked) for the left side into the drive that shows up after entering bootloader mode.  
+  - You can drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/tree/main/precompiled_firmware/V2_Everything_Unlocked) for the *LEFT* side into the drive that shows up after entering bootloader mode.  
  
-  - After the firmware has completed loading, the drive should disappear and you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
+  - After the firmware has completed loading, the drive should disappear then you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
  
-- Do the same with the right half: Set to Master, press RESET to enter bootloader mode (Hold MO(2) and press the top right button)    
+- Do the same with the right half: Set to Master, press RESET to enter bootloader mode - Hold MO(2) and press the top right button.    
 
-  - Drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/tree/main/precompiled_firmware/V2_Everything_Unlocked) for the right side into the drive that shows up after entering bootloader mode.  
+  - Drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/tree/main/precompiled_firmware/V2_Everything_Unlocked) for the *RIGHT* side into the drive that shows up after entering bootloader mode.  
  
-  - After the firmware is done loading you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
+  - After the firmware is done loading, you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
  
 - After these steps have been done successfully - you could even snap the switches off with some cutting pliers to prevent yourself from accidentally switching them on in the future.  
 <br/>  
