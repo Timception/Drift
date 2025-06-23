@@ -37,9 +37,9 @@ without having to learn new shortcuts — while enjoying the ergonomic benefits 
 
 MCU: RP2040-ZERO  
 
-Switch Support: MX hotswap sockets; supports both 3 and 5 pin switches  
+Switch Support: 5-Pin or 3-Pin Cherry MX switches - the PCB has hotswap sockets.  
 
-OLED: (Horizontally placed) SSD1306 128x64  
+OLED: (Horizontal) SSD1306 128x64  
 
 Encoder: The Limited Panasonic EVQWGD001 Roller Encoder and the EC11 Encoder  
 
