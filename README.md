@@ -97,7 +97,7 @@ If your Drift Keyboard has switches on the side that determine the master and th
 
 - You will have to update one half at a time, so do not insert the 3.5mm audio jack.  
 
-- Starting with the left side, set the switch to Master (MSTR) then plug the USB-C into your computer.  
+- Starting with the left half, set the switch to Master (MSTR) then plug the USB-C into your computer.  
 
   - You can hold the MO(1) key then hit the RESET button on the top left of the keyboard to enter bootloader mode.  
 
@@ -105,9 +105,13 @@ If your Drift Keyboard has switches on the side that determine the master and th
  
   - After the firmware has completed loading, the drive should disappear and you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
  
-  - Do the same with the right half: Set to Master, press RESET to enter bootloader mode (Hold MO(2) and press the top right button), drop the firmware for the right side into the drive that shows up, unplug, set to slave (SLV).  
+- Do the same with the right half: Set to Master, press RESET to enter bootloader mode (Hold MO(2) and press the top right button)    
+
+  - Drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/tree/main/precompiled_firmware/V2_Everything_Unlocked) for the right side into the drive that shows up after entering bootloader mode.  
  
-  - After these steps have been done successfully - you could even snap the switches off with some cutting pliers to prevent yourself from accidentally switching them on in the future.  
+  - After the firmware is done loading you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
+ 
+- After these steps have been done successfully - you could even snap the switches off with some cutting pliers to prevent yourself from accidentally switching them on in the future.  
 <br/>  
 
 ---------------------------------------------------------------------------------  
