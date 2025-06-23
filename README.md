@@ -62,7 +62,6 @@ Dimensions: Width: 128mm, Length: 196mm
 > Just don't forget to flash firmware on it first.  
 >  
 > The RP2040-Zero MCU requires you to hold the BOOT button before plugging in the USB to enter bootloader mode.  
-> You could also press the RESET button if you know where it is in your keymap.  
 > A new drive will appear, then you can simply drag the .uf2 firmware file into it and wait for it to complete.  
 > When flashing firmware, one side at a time (unplug the 3.5mm connector).  
 <br/>  
