@@ -93,7 +93,7 @@ Dimensions: Width: 128mm, Length: 196mm
 
 ### Updating Earlier Versions  
 
-If your Drift Keyboard has switches on the side that determines the master and the slave, you can update your firmware.  
+If your Drift Keyboard has switches on the side that determine the master and the slave, you can update your firmware and forget about those switches forever.  
 
 - You will have to update one half at a time, so do not insert the 3.5mm audio jack.  
 
@@ -107,7 +107,7 @@ If your Drift Keyboard has switches on the side that determines the master and t
  
   - Do the same with the right half: Set to Master, press RESET to enter bootloader mode, drop in the right side firmware, unplug, set to slave (SLV).  
  
-  - After these have been dont successfully - you could even snap the switches off with some pliers to prevent yourself from accidentally switching them up in the future.  
+  - After these steps have been done successfully - you could even snap the switches off with some cutting pliers to prevent yourself from accidentally switching them on in the future.  
 <br/>  
 
 ---------------------------------------------------------------------------------  
