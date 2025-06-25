@@ -96,7 +96,7 @@ Dimensions: Width: 128mm, Length: 196mm
 
 - Version 3 [(Drift Keyboard V3) Wireless](https://github.com/Timception/zmk-config-drift-v3-editor) - Drift V2, but with a [Bluetooth Enabled MCU / Nice!Nano](https://typeractive.xyz/products/nice-nano) using ZMK firmware  
 
-- Version 3 [(Drift Keyboard V3) Wired](https://github.com/Timception/Drift-Keyboard-V3-Wired-Vial-Version) - Drift V3, but with an RP2040 Promicro MCU using Vial-QMK firmware  
+- Version 3 [(Drift Keyboard V3) Wired](https://github.com/Timception/Drift-v3-vial) - Drift V3, but with an RP2040 Promicro MCU using Vial-QMK firmware  
 
 - Version 2 (Drift Keyboard V2) - The original Drift Keyboard by Timception, with an [RP2040-Zero MCU](https://docs.nordicsemi.com/bundle/ncs-latest/page/zephyr/boards/waveshare/rp2040_zero/doc/index.html) running Vial-QMK  
 
