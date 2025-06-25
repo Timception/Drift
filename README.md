@@ -49,17 +49,18 @@ Serial Connector Cable: Either TRS or TRRS 3.5mm audio jacks can be used
 Dimensions: Width: 128mm, Length: 196mm  
 
 > [!Important]  
-> You MUST NOT plug in or disconnect your 3.5mm audio connector when the USB-C is connected, otherwise, you may cook your keyboard.
+> You MUST NOT plug in or disconnect your 3.5mm audio connector when the USB-C is connected, otherwise, you may cook your keyboard.  
 >  
-> WHEN IN DOUBT - IMMEDIATELY UNPLUG YOUR USB-C - EASY..
+> WHEN IN DOUBT - IMMEDIATELY UNPLUG YOUR USB-C - EASY..  
 >  
 > 3.5mm audio connectors are the better choice vs USB-C - don't argue,  
-> you will agree with me fast when you try making your own split keyboard.  
+> you will agree with me fast when you try making your own split keyboard,  
+> or if your USB-C becomes loose and you have to replace it - basic soldering skills won't suffice.  
 >  
 > I have been using split keyboards since 2022 with prior knowledge about this issue, zero problems so far.  
-> Keep out of reach of children, or unpower the keyboard to prevent accidents when not in use.  
+> Keep out of reach of children, or unpower the keyboard when not in use.  
 >   
-> However, mistakes can happen, and you can use a heat gun to remove the MCU and replace it with a new one.  
+> However, mistakes can happen, and you can use a heat gun to remove the MCU and replace it with a new one (not fun).  
 > Just don't forget to flash firmware on it first.  
 >  
 > The RP2040-Zero MCU requires you to hold the BOOT button before plugging in the USB to enter bootloader mode.  
@@ -97,7 +98,7 @@ Dimensions: Width: 128mm, Length: 196mm
 
 - Version 3 [(Drift Keyboard V3) Wired](https://github.com/Timception/Drift-Keyboard-V3-Wired-Vial-Version) - Drift V3, but with an RP2040 Promicro MCU using Vial-QMK firmware  
 
-- Version 2 (Drift Keyboard V2) - The original Drift Keyboard by Timception, with an RP2040-Zero MCU running Vial-QMK  
+- Version 2 (Drift Keyboard V2) - The original Drift Keyboard by Timception, with an [RP2040-Zero MCU](https://docs.nordicsemi.com/bundle/ncs-latest/page/zephyr/boards/waveshare/rp2040_zero/doc/index.html) running Vial-QMK  
 
 - Early Versions - These versions have a master (MSTR) and slave (SLV) switch beside the OLEDs  
 <br/>  
