@@ -27,7 +27,7 @@ SOFTWARE. */
 
 /* Serial settings */
 #define USE_SERIAL
-#define SOFT_SERIAL_PIN GP0 //TX in Schematic
+#define SOFT_SERIAL_PIN GP0 //TX
 #define SERIAL_USE_MULTI_TRANSACTION
 
 
@@ -43,7 +43,7 @@ SOFTWARE. */
 
 /* Handedness https://docs.qmk.fm/features/split_keyboard */
 // qmk flash -kb drift -km vial -bl uf2-split-left
-// qmk flash -kb drift -km vial -bl uf2-split-left
+// qmk flash -kb drift -km vial -bl uf2-split-right
 //#define MASTER_LEFT
 //#define MASTER_RIGHT
 #define EE_HANDS

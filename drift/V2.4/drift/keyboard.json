@@ -1,11 +1,11 @@
 {
-  "keyboard_name" : "Drift V2.4",
+  "keyboard_name" : "Drift V2",
   "maintainer" : "Timception",
   "url" : "https://github.com/Timception/Drift",
   "manufacturer" : "Timception",
   "usb": {
-    "vid": "0x5965",
-    "pid": "0x6D6A",
+    "vid": "0x6D6A",
+    "pid": "0x5965",
     "device_version": "0.0.1"
   },
   "processor": "RP2040",

@@ -11,8 +11,6 @@ SERIAL_DRIVER = vendor
 # OLED Settings
 OLED_ENABLE = yes
 WPM_ENABLE	= yes
-#not sure what this does try removing it.
-#OPT_DEFS += -DHAL_USE_I2C=TRUE
 
 # Allow Warnings
 #ALLOW_WARNINGS = yes
@@ -25,7 +23,6 @@ LTO_ENABLE = no
 #SWAP_HANDS_ENABLE = yes
 
 #SPACE SAVING
-
 AUDIO_DRIVER			= pwm_hardware
 AUDIO_ENABLE			= yes
 MUSIC_ENABLE			= yes
