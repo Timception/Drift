@@ -2,7 +2,7 @@
 
 - For those interested: [Drift Keyboard V3](https://github.com/Timception/zmk-config-drift-v3-editor) is now available  
 
-- These can be shipped internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/) or on reddit (u/timception)
+- These can be shipped internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/)  
 <br/>  
 
 ### Contents:  
