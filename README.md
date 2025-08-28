@@ -68,10 +68,10 @@ Dimensions: Width: 128mm, Length: 196mm
 >  
 > 📌 Flashing firmware on RP2040-Zero  
 >  
-> 1. Hold the BOOT button before plugging in the USB cable.  
-> 2. A new drive will appear on your computer.  
-> 3. Drag and drop the .uf2 firmware file onto it.  
-> 4. Flash one side at a time (unplug the 3.5 mm connector between sides).  
+> 1. Flash one side at a time (unplug the 3.5 mm connector between sides).  
+> 2. Hold the BOOT button before plugging in the USB cable.  
+> 3. A new drive will appear on your computer.  
+> 4. Drag and drop the .uf2 firmware file onto it.  
 >  
 >  
 > 🔒 Additional tips  
@@ -87,13 +87,13 @@ Dimensions: Width: 128mm, Length: 196mm
 
 - You can [download the Vial App](https://get.vial.today/download/) to see where all your keys are, this is a must.  
   
-- To turn off the beeping sounds you can press "Audio Toggle" found on the last layer (the left encoder).  
+- To turn off the beeping sounds you can press "Audio Toggle" found on the last layer (then on the left encoder).  
 
 - This keyboard also has a [Music Mode](https://docs.qmk.fm/features/audio#music-mode) (an interesting feature that could be implemented and therefore, was implemented).  
 
-  - By pressing the left encoder on the default layer you will toggle [Music Mode](https://docs.qmk.fm/features/audio#music-mode). Your keyboard is now a musical instrument and unusable until you press "Music Toggle" again.  
+  - By pressing the left encoder on the default layer you will toggle [Music Mode](https://docs.qmk.fm/features/audio#music-mode). Your keyboard is now a musical instrument and unusable until you press "Music Toggle" again (you won't hear anything unless audio is on through Audio Toggle).  
 
-   - These audio toggles can be found in the Quantum section of the vial app.  
+   - These audio toggles can be found in the Quantum section of the vial app (I have disabled this by default recently because almost everyone asks how to turn it off).  
 
 - The three curved keys on the bottom of each half are called the "Thumb Cluster". By default, the middle key of the thumb cluster on each half is the spacebar.
 
