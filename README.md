@@ -65,13 +65,10 @@ Dimensions: Width: 128mm, Length: 196mm
 >  
 > 📌 Flashing firmware on RP2040-Zero  
 >  
-> Hold the BOOT button before plugging in the USB cable.  
->  
-> A new drive will appear on your computer.  
->  
-> Drag and drop the .uf2 firmware file onto it.  
->  
-> Flash one side at a time (unplug the 3.5 mm connector between sides).  
+> 1. Hold the BOOT button before plugging in the USB cable.  
+> 2. A new drive will appear on your computer.  
+> 3. Drag and drop the .uf2 firmware file onto it.  
+> 4. Flash one side at a time (unplug the 3.5 mm connector between sides).  
 >  
 > 🔒 Additional tips  
 >  
