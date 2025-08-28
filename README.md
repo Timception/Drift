@@ -51,9 +51,9 @@ Dimensions: Width: 128mm, Length: 196mm
 > [!Important]  
 > ⚠️ Important Safety Notice for Split Keyboard Users  
 >  
-> - Never plug in or disconnect the 3.5 mm audio connector while your keyboard is connected via USB-C. Doing so can permanently damage the keyboard.  
+> - *Never plug in or disconnect the 3.5 mm audio connector while your keyboard is connected via USB-C*. Doing so can permanently damage the keyboard.  
 >  
-> - When unsure, simply unplug USB-C first. This quick habit will save you trouble every time.  
+> - *When unsure, simply unplug USB-C first*. This quick habit will save you trouble every time.  
 >  
 >  
 > ✅ Why 3.5 mm is the safer choice  
@@ -107,7 +107,7 @@ Dimensions: Width: 128mm, Length: 196mm
 
 - Version 4 (Drift Keyboard V4) - A 3D-Printer-friendly, smaller, 64-key version (ready soon!)  
 
-- Version 3 [(Drift Keyboard V3) Wireless](https://github.com/Timception/zmk-config-drift-v3-editor) - Drift V2, but with a [Bluetooth Enabled MCU / Nice!Nano](https://typeractive.xyz/products/nice-nano) using ZMK firmware  
+- Version 3 [(Drift Keyboard V3) Wireless](https://github.com/Timception/zmk-config-drift-v3-editor) - Drift V2, but with a Bluetooth Enabled MCU / [Nice!Nano](https://typeractive.xyz/products/nice-nano) using ZMK firmware  
 
 - Version 3 [(Drift Keyboard V3) Wired](https://github.com/Timception/Drift-v3-vial) - Drift V3, but with an RP2040 Promicro MCU using Vial-QMK firmware  
 
