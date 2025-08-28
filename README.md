@@ -49,23 +49,35 @@ Serial Connector Cable: Either TRS or TRRS 3.5mm audio jacks can be used
 Dimensions: Width: 128mm, Length: 196mm  
 
 > [!Important]  
-> You MUST NOT plug in or disconnect your 3.5mm audio connector when the USB-C is connected, otherwise, you may cook your keyboard.  
+> ⚠️ Important Safety Notice for Split Keyboard Users  
 >  
-> WHEN IN DOUBT - IMMEDIATELY UNPLUG YOUR USB-C - EASY..  
+> Never plug in or disconnect the 3.5 mm audio connector while your keyboard is connected via USB-C. Doing so can permanently damage the keyboard.  
 >  
-> 3.5mm audio connectors are the better choice vs USB-C - don't argue,  
-> you will agree with me fast when you try making your own split keyboard,  
-> or if your USB-C becomes loose and you have to replace it - basic soldering skills won't suffice.  
+> When unsure, simply unplug USB-C first. This quick habit will save you trouble every time.  
 >  
-> I have been using split keyboards since 2022 with prior knowledge about this issue, zero problems so far.  
-> Keep out of reach of children, or unpower the keyboard when not in use.  
->   
-> However, mistakes can happen, and you can use a heat gun to remove the MCU and replace it with a new one (not fun).  
-> Just don't forget to flash firmware on it first.  
+> ✅ Why 3.5 mm is the safer choice  
+> From experience and community knowledge, 3.5 mm audio connectors are far more reliable than USB-C for split keyboards.  
+> They’re durable, easy to replace, and don’t require advanced soldering skills if something ever goes wrong. Many builders learn this the hard way once they’ve used or repaired split keyboards.  
 >  
-> The RP2040-Zero MCU requires you to hold the BOOT button before plugging in the USB to enter bootloader mode.  
-> A new drive will appear, then you can simply drag the .uf2 firmware file into it and wait for it to complete.  
-> When flashing firmware, one side at a time (unplug the 3.5mm connector).  
+> 🛠️ In case of mistakes  
+> If damage ever occurs, the MCU can be replaced using a heat gun, but it’s a time-consuming process (and definitely not fun).
+> Always remember to flash the firmware onto the replacement MCU before installing it.  
+>  
+> 📌 Flashing firmware on RP2040-Zero  
+>  
+> Hold the BOOT button before plugging in the USB cable.  
+>  
+> A new drive will appear on your computer.  
+>  
+> Drag and drop the .uf2 firmware file onto it.  
+>  
+> Flash one side at a time (unplug the 3.5 mm connector between sides).  
+>  
+> 🔒 Additional tips  
+>  
+> Disconnect or power off your keyboard when not in use.  
+>  
+> Keep it out of reach of children to avoid accidents.  
 <br/>  
 
 
