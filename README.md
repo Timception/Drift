@@ -51,9 +51,9 @@ Dimensions: Width: 128mm, Length: 196mm
 > [!Important]  
 > ⚠️ Important Safety Notice for Split Keyboard Users  
 >  
-> Never plug in or disconnect the 3.5 mm audio connector while your keyboard is connected via USB-C. Doing so can permanently damage the keyboard.  
+> - Never plug in or disconnect the 3.5 mm audio connector while your keyboard is connected via USB-C. Doing so can permanently damage the keyboard.  
 >  
-> When unsure, simply unplug USB-C first. This quick habit will save you trouble every time.  
+> - When unsure, simply unplug USB-C first. This quick habit will save you trouble every time.  
 >  
 > ✅ Why 3.5 mm is the safer choice  
 > From experience and community knowledge, 3.5 mm audio connectors are far more reliable than USB-C for split keyboards.  
