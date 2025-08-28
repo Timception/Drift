@@ -59,10 +59,11 @@ Dimensions: Width: 128mm, Length: 196mm
 > ✅ Why the 3.5mm audio connector is the better choice  
 > From experience and community knowledge, 3.5mm audio connectors are far more reliable than USB-C for split keyboards.  
 > They’re durable, easy to replace, and don’t require advanced soldering skills if something ever goes wrong. Many builders learn this the hard way once they’ve used or repaired split keyboards.  
+> If you are afraid of this issue, I highly suggest getting the wireless version instead - problem solved.  
 >  
 >  
 > 🛠️ In case of mistakes  
-> If damage ever occurs, the MCU can be replaced using a heat gun, but it’s a time-consuming process (and definitely not fun when removing the residual solder from the pin holes).
+> If damage ever occurs, the MCU can be replaced using a heat gun, but it’s a time-consuming process (and definitely not fun when removing the residual solder from the pin holes).  
 > Always remember to flash the firmware onto the replacement MCU before installing it.  
 >  
 >  
