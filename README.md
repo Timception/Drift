@@ -51,24 +51,24 @@ Dimensions: Width: 128mm, Length: 196mm
 > [!Important]  
 > ⚠️ Important Safety Notice for Split Keyboard Users  
 >  
-> - **Never plug in or disconnect the 3.5 mm audio connector while your keyboard is connected via USB-C**. Doing so can permanently damage the keyboard.  
+> - **Never plug in or disconnect the 3.5mm audio connector while your keyboard is connected via USB-C**. Doing so can permanently damage the keyboard.  
 >  
 > - **When unsure, simply unplug USB-C first**. This quick habit will save you trouble every time.  
 >  
 >  
-> ✅ Why 3.5 mm is the safer choice  
-> From experience and community knowledge, 3.5 mm audio connectors are far more reliable than USB-C for split keyboards.  
+> ✅ Why the 3.5mm audio connector is the better choice  
+> From experience and community knowledge, 3.5mm audio connectors are far more reliable than USB-C for split keyboards.  
 > They’re durable, easy to replace, and don’t require advanced soldering skills if something ever goes wrong. Many builders learn this the hard way once they’ve used or repaired split keyboards.  
 >  
 >  
 > 🛠️ In case of mistakes  
-> If damage ever occurs, the MCU can be replaced using a heat gun, but it’s a time-consuming process (and definitely not fun).
+> If damage ever occurs, the MCU can be replaced using a heat gun, but it’s a time-consuming process (and definitely not fun when removing the residual solder from the pin holes).
 > Always remember to flash the firmware onto the replacement MCU before installing it.  
 >  
 >  
 > 📌 Flashing firmware on RP2040-Zero  
 >  
-> 1. Flash one side at a time (unplug the 3.5 mm connector between sides).  
+> 1. Flash one side at a time (unplug the 3.5mm connector between sides).  
 > 2. Hold the BOOT button before plugging in the USB cable.  
 > 3. A new drive will appear on your computer.  
 > 4. Drag and drop the .uf2 firmware file onto it.  
@@ -102,7 +102,7 @@ Dimensions: Width: 128mm, Length: 196mm
   - This keyboard has 4 layers and the first layer is layer 0 (Zero), so this is the order: Layer 0, Layer 1, Layer 2 and Layer 3.
 <br/>  
 
-### Versions  
+### Current Versions of the Drift Keyboard  
 ---------------------------------------------------------------------------------
 
 - Version 4 (Drift Keyboard V4) - A 3D-Printer-friendly, smaller, 64-key version (ready soon!)  
