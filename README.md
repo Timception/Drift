@@ -177,3 +177,13 @@ Special Thanks to [TweetyDaBird](https://github.com/TweetyDaBird) for patiently 
 Inspired by Foostan's [Corne Keyboard](https://github.com/foostan/crkbd)  
 
 The reversible pcb design from the [Sofle Keyboard](https://josefadamcik.github.io/SofleKeyboard/) was also an inspiring factor  
+
+
+## Acknowledgments & Licensing  
+
+This project makes use of code and ideas from the following repositories:  
+
+- [QMK Firmware](https://qmk.fm/) ([GitHub](https://github.com/qmk/qmk_firmware)) – The foundation of modern custom keyboard firmware, whose open-source work made this project possible.  
+- [Vial-QMK](https://github.com/vial-kb/vial-qmk) – Extending QMK with real-time keymap editing and powerful features that bring even more flexibility to end users.  
+
+All third-party code remains under their original licenses.  
