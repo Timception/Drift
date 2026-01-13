@@ -128,13 +128,13 @@ If your Drift Keyboard has switches on the side that determine the master and th
 
   - You can hold the MO(1) key then hit the RESET button on the top left of the keyboard to enter bootloader mode.  
 
-  - You can drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/tree/main/precompiled_firmware/V2_Everything_Unlocked) for the *LEFT* side into the drive that shows up after entering bootloader mode.  
+  - You can drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/blob/main/precompiled_firmware/V2_Smooth_Strafe/majin_drift_vial-LEFT.uf2) for the *LEFT* side into the drive that shows up after entering bootloader mode.  
  
   - After the firmware has completed loading, the drive should disappear then you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
  
 - Do the same with the right half: Set to Master, press RESET to enter bootloader mode - Hold MO(2) and press the top right button.    
 
-  - Drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/tree/main/precompiled_firmware/V2_Everything_Unlocked) for the *RIGHT* side into the drive that shows up after entering bootloader mode.  
+  - Drag and drop the [.uf2 firmware file](https://github.com/Timception/Drift/blob/main/precompiled_firmware/V2_Smooth_Strafe/majin_drift_vial-RIGHT.uf2) for the *RIGHT* side into the drive that shows up after entering bootloader mode.  
  
   - After the firmware is done loading, you can unplug the keyboard and set the side switch to slave (SLV) and never care about it again.  
  
