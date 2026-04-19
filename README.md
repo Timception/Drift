@@ -1,6 +1,6 @@
 ## Drift Keyboard V2 by Timception  
 
-- For those interested: [Drift Keyboard V3](https://github.com/Timception/zmk-config-drift-v3-editor) is now available  
+- For those interested: [Drift Keyboard V3](https://github.com/Timception/drift-v3-dongle) is now available  
 
 - These can be shipped internationally - DM me on [INSTAGRAM](https://www.instagram.com/majin.keyboards/)  
 <br/>  
